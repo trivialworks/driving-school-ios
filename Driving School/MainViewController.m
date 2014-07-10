@@ -55,6 +55,11 @@
 
 }
 
+- (IBAction)forgotAction:(id)sender {
+    ForgotPasswordViewController *forgotPasswordViewController=[[ForgotPasswordViewController alloc]init];
+    [self presentViewController:forgotPasswordViewController animated:YES completion:nil];
+}
+
 - (BOOL)textFieldShouldReturn:(UITextField*)textField
 {
     [textField resignFirstResponder];
@@ -74,23 +79,19 @@
     secoundView.title=@"Search";
     secoundView.tabBarItem.image=[UIImage imageNamed:@"search.png"];
   
-    //SecondViewController
-    //  ChatViewController *chatViewController = [[ChatViewController alloc] init];
     ChatViewController *thirdView=[[ChatViewController alloc]initWithNibName:nil bundle:nil];
     thirdView.title=@"Chat";
     thirdView.tabBarItem.image=[UIImage imageNamed:@"chat.png"];
-    
-    //ThirdViewController
     
     ProfileViewController *fourthView=[[ProfileViewController alloc]initWithNibName:nil bundle:nil];
     fourthView.title=@"Profile";
     fourthView.tabBarItem.image=[UIImage imageNamed:@"profile.png"];
     
-    ShopViewController *fifthView=[[ShopViewController alloc]initWithNibName:nil bundle:nil];
-    fifthView.title=@"Shop";
-    fifthView.tabBarItem.image=[UIImage imageNamed:@"cart.png"];
+//    ShopViewController *fifthView=[[ShopViewController alloc]initWithNibName:nil bundle:nil];
+//    fifthView.title=@"Shop";
+//    fifthView.tabBarItem.image=[UIImage imageNamed:@"cart.png"];
     
-    self.tab.viewControllers=[NSArray arrayWithObjects: firstView, secoundView, thirdView, fourthView,fifthView, nil];
+    self.tab.viewControllers=[NSArray arrayWithObjects: firstView, secoundView, thirdView, fourthView, nil];
     self.tab.view.frame = CGRectMake(0,0,screenArea.size.width,screenArea.size.height+20);
     [self.view addSubview:self.tab.view];
 

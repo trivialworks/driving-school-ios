@@ -38,6 +38,9 @@
                     <state key="normal" title="Forgot password?">
                         <color key="titleColor" red="0.0" green="0.62745098040000002" blue="0.77647058820000003" alpha="1" colorSpace="calibratedRGB"/>
                     </state>
+                    <connections>
+                        <action selector="forgotAction:" destination="-1" eventType="touchUpInside" id="5Mw-5W-bZR"/>
+                    </connections>
                 </button>
                 <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Log in or" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Wfc-a6-sHr">
                     <rect key="frame" x="40" y="158" width="75" height="21"/>

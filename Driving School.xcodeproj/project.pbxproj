@@ -153,6 +153,25 @@
 		D3E9303A196EA04700F0C8B3 /* AssociatedTrainersViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = D3E93038196EA04700F0C8B3 /* AssociatedTrainersViewController.xib */; };
 		D3E9303E196EA06200F0C8B3 /* JoinSchoolViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D3E9303C196EA06200F0C8B3 /* JoinSchoolViewController.m */; };
 		D3E9303F196EA06200F0C8B3 /* JoinSchoolViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = D3E9303D196EA06200F0C8B3 /* JoinSchoolViewController.xib */; };
+		D3E9304D196EAB8C00F0C8B3 /* NSBubbleData.m in Sources */ = {isa = PBXBuildFile; fileRef = D3E93043196EAB8C00F0C8B3 /* NSBubbleData.m */; };
+		D3E9304E196EAB8C00F0C8B3 /* UIBubbleHeaderTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = D3E93045196EAB8C00F0C8B3 /* UIBubbleHeaderTableViewCell.m */; };
+		D3E9304F196EAB8C00F0C8B3 /* UIBubbleTableView.m in Sources */ = {isa = PBXBuildFile; fileRef = D3E93047196EAB8C00F0C8B3 /* UIBubbleTableView.m */; };
+		D3E93050196EAB8C00F0C8B3 /* UIBubbleTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = D3E93049196EAB8C00F0C8B3 /* UIBubbleTableViewCell.m */; };
+		D3E93051196EAB8C00F0C8B3 /* UIBubbleTypingTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = D3E9304C196EAB8C00F0C8B3 /* UIBubbleTypingTableViewCell.m */; };
+		D3E9305A196EAB9A00F0C8B3 /* bubbleMine.png in Resources */ = {isa = PBXBuildFile; fileRef = D3E93052196EAB9A00F0C8B3 /* bubbleMine.png */; };
+		D3E9305B196EAB9A00F0C8B3 /* bubbleMine@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D3E93053196EAB9A00F0C8B3 /* bubbleMine@2x.png */; };
+		D3E9305C196EAB9A00F0C8B3 /* bubbleSomeone.png in Resources */ = {isa = PBXBuildFile; fileRef = D3E93054196EAB9A00F0C8B3 /* bubbleSomeone.png */; };
+		D3E9305D196EAB9A00F0C8B3 /* bubbleSomeone@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D3E93055196EAB9A00F0C8B3 /* bubbleSomeone@2x.png */; };
+		D3E9305E196EAB9A00F0C8B3 /* detail.png in Resources */ = {isa = PBXBuildFile; fileRef = D3E93056196EAB9A00F0C8B3 /* detail.png */; };
+		D3E9305F196EAB9A00F0C8B3 /* dot.png in Resources */ = {isa = PBXBuildFile; fileRef = D3E93057196EAB9A00F0C8B3 /* dot.png */; };
+		D3E93060196EAB9A00F0C8B3 /* fav_star.png in Resources */ = {isa = PBXBuildFile; fileRef = D3E93058196EAB9A00F0C8B3 /* fav_star.png */; };
+		D3E93061196EAB9A00F0C8B3 /* fav_star@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D3E93059196EAB9A00F0C8B3 /* fav_star@2x.png */; };
+		D3E9306B196EABB700F0C8B3 /* ChatCell.m in Sources */ = {isa = PBXBuildFile; fileRef = D3E93063196EABB700F0C8B3 /* ChatCell.m */; };
+		D3E9306C196EABB700F0C8B3 /* ChatCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = D3E93064196EABB700F0C8B3 /* ChatCell.xib */; };
+		D3E9306D196EABB700F0C8B3 /* ChatListViewcontroller.m in Sources */ = {isa = PBXBuildFile; fileRef = D3E93066196EABB700F0C8B3 /* ChatListViewcontroller.m */; };
+		D3E9306E196EABB700F0C8B3 /* ChatListViewcontroller.xib in Resources */ = {isa = PBXBuildFile; fileRef = D3E93067196EABB700F0C8B3 /* ChatListViewcontroller.xib */; };
+		D3E9306F196EABB700F0C8B3 /* ForgotPasswordViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D3E93069196EABB700F0C8B3 /* ForgotPasswordViewController.m */; };
+		D3E93070196EABB700F0C8B3 /* ForgotPasswordViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = D3E9306A196EABB700F0C8B3 /* ForgotPasswordViewController.xib */; };
 		F939856719681925003580F5 /* TeacherRegistrationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F939856519681925003580F5 /* TeacherRegistrationViewController.m */; };
 		F939856819681925003580F5 /* TeacherRegistrationViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = F939856619681925003580F5 /* TeacherRegistrationViewController.xib */; };
 		F9431028196E74BA0087870B /* ProfileEditViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F9431020196E74BA0087870B /* ProfileEditViewController.m */; };
@@ -355,6 +374,34 @@
 		D3E9303B196EA06200F0C8B3 /* JoinSchoolViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JoinSchoolViewController.h; sourceTree = "<group>"; };
 		D3E9303C196EA06200F0C8B3 /* JoinSchoolViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JoinSchoolViewController.m; sourceTree = "<group>"; };
 		D3E9303D196EA06200F0C8B3 /* JoinSchoolViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = JoinSchoolViewController.xib; sourceTree = "<group>"; };
+		D3E93042196EAB8C00F0C8B3 /* NSBubbleData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NSBubbleData.h; sourceTree = "<group>"; };
+		D3E93043196EAB8C00F0C8B3 /* NSBubbleData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NSBubbleData.m; sourceTree = "<group>"; };
+		D3E93044196EAB8C00F0C8B3 /* UIBubbleHeaderTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UIBubbleHeaderTableViewCell.h; sourceTree = "<group>"; };
+		D3E93045196EAB8C00F0C8B3 /* UIBubbleHeaderTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UIBubbleHeaderTableViewCell.m; sourceTree = "<group>"; };
+		D3E93046196EAB8C00F0C8B3 /* UIBubbleTableView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UIBubbleTableView.h; sourceTree = "<group>"; };
+		D3E93047196EAB8C00F0C8B3 /* UIBubbleTableView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UIBubbleTableView.m; sourceTree = "<group>"; };
+		D3E93048196EAB8C00F0C8B3 /* UIBubbleTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UIBubbleTableViewCell.h; sourceTree = "<group>"; };
+		D3E93049196EAB8C00F0C8B3 /* UIBubbleTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UIBubbleTableViewCell.m; sourceTree = "<group>"; };
+		D3E9304A196EAB8C00F0C8B3 /* UIBubbleTableViewDataSource.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UIBubbleTableViewDataSource.h; sourceTree = "<group>"; };
+		D3E9304B196EAB8C00F0C8B3 /* UIBubbleTypingTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UIBubbleTypingTableViewCell.h; sourceTree = "<group>"; };
+		D3E9304C196EAB8C00F0C8B3 /* UIBubbleTypingTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UIBubbleTypingTableViewCell.m; sourceTree = "<group>"; };
+		D3E93052196EAB9A00F0C8B3 /* bubbleMine.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bubbleMine.png; sourceTree = "<group>"; };
+		D3E93053196EAB9A00F0C8B3 /* bubbleMine@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "bubbleMine@2x.png"; sourceTree = "<group>"; };
+		D3E93054196EAB9A00F0C8B3 /* bubbleSomeone.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bubbleSomeone.png; sourceTree = "<group>"; };
+		D3E93055196EAB9A00F0C8B3 /* bubbleSomeone@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "bubbleSomeone@2x.png"; sourceTree = "<group>"; };
+		D3E93056196EAB9A00F0C8B3 /* detail.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = detail.png; sourceTree = "<group>"; };
+		D3E93057196EAB9A00F0C8B3 /* dot.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = dot.png; sourceTree = "<group>"; };
+		D3E93058196EAB9A00F0C8B3 /* fav_star.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = fav_star.png; sourceTree = "<group>"; };
+		D3E93059196EAB9A00F0C8B3 /* fav_star@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "fav_star@2x.png"; sourceTree = "<group>"; };
+		D3E93062196EABB700F0C8B3 /* ChatCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ChatCell.h; sourceTree = "<group>"; };
+		D3E93063196EABB700F0C8B3 /* ChatCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ChatCell.m; sourceTree = "<group>"; };
+		D3E93064196EABB700F0C8B3 /* ChatCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ChatCell.xib; sourceTree = "<group>"; };
+		D3E93065196EABB700F0C8B3 /* ChatListViewcontroller.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ChatListViewcontroller.h; sourceTree = "<group>"; };
+		D3E93066196EABB700F0C8B3 /* ChatListViewcontroller.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ChatListViewcontroller.m; sourceTree = "<group>"; };
+		D3E93067196EABB700F0C8B3 /* ChatListViewcontroller.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ChatListViewcontroller.xib; sourceTree = "<group>"; };
+		D3E93068196EABB700F0C8B3 /* ForgotPasswordViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ForgotPasswordViewController.h; sourceTree = "<group>"; };
+		D3E93069196EABB700F0C8B3 /* ForgotPasswordViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ForgotPasswordViewController.m; sourceTree = "<group>"; };
+		D3E9306A196EABB700F0C8B3 /* ForgotPasswordViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ForgotPasswordViewController.xib; sourceTree = "<group>"; };
 		F939856419681925003580F5 /* TeacherRegistrationViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TeacherRegistrationViewController.h; sourceTree = "<group>"; };
 		F939856519681925003580F5 /* TeacherRegistrationViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TeacherRegistrationViewController.m; sourceTree = "<group>"; };
 		F939856619681925003580F5 /* TeacherRegistrationViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TeacherRegistrationViewController.xib; sourceTree = "<group>"; };
@@ -457,6 +504,16 @@
 		302C179A1952FF83004F0AB1 /* Driving School */ = {
 			isa = PBXGroup;
 			children = (
+				D3E93062196EABB700F0C8B3 /* ChatCell.h */,
+				D3E93063196EABB700F0C8B3 /* ChatCell.m */,
+				D3E93064196EABB700F0C8B3 /* ChatCell.xib */,
+				D3E93065196EABB700F0C8B3 /* ChatListViewcontroller.h */,
+				D3E93066196EABB700F0C8B3 /* ChatListViewcontroller.m */,
+				D3E93067196EABB700F0C8B3 /* ChatListViewcontroller.xib */,
+				D3E93068196EABB700F0C8B3 /* ForgotPasswordViewController.h */,
+				D3E93069196EABB700F0C8B3 /* ForgotPasswordViewController.m */,
+				D3E9306A196EABB700F0C8B3 /* ForgotPasswordViewController.xib */,
+				D3E93041196EAB8300F0C8B3 /* Classes */,
 				F95DE376196A87CF0074C3D1 /* Modules */,
 				302C17D0195307E9004F0AB1 /* Images */,
 				302C17A31952FF83004F0AB1 /* MyclassAppDelegate.h */,
@@ -553,6 +610,14 @@
 		302C17D0195307E9004F0AB1 /* Images */ = {
 			isa = PBXGroup;
 			children = (
+				D3E93052196EAB9A00F0C8B3 /* bubbleMine.png */,
+				D3E93053196EAB9A00F0C8B3 /* bubbleMine@2x.png */,
+				D3E93054196EAB9A00F0C8B3 /* bubbleSomeone.png */,
+				D3E93055196EAB9A00F0C8B3 /* bubbleSomeone@2x.png */,
+				D3E93056196EAB9A00F0C8B3 /* detail.png */,
+				D3E93057196EAB9A00F0C8B3 /* dot.png */,
+				D3E93058196EAB9A00F0C8B3 /* fav_star.png */,
+				D3E93059196EAB9A00F0C8B3 /* fav_star@2x.png */,
 				D3E9301A196E913D00F0C8B3 /* tag.png */,
 				D3E9301B196E913D00F0C8B3 /* like.png */,
 				D3E9301C196E913D00F0C8B3 /* mail-1.png */,
@@ -674,6 +739,24 @@
 				302C1830195307E9004F0AB1 /* Whitebg.png */,
 			);
 			path = Images;
+			sourceTree = "<group>";
+		};
+		D3E93041196EAB8300F0C8B3 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				D3E93042196EAB8C00F0C8B3 /* NSBubbleData.h */,
+				D3E93043196EAB8C00F0C8B3 /* NSBubbleData.m */,
+				D3E93044196EAB8C00F0C8B3 /* UIBubbleHeaderTableViewCell.h */,
+				D3E93045196EAB8C00F0C8B3 /* UIBubbleHeaderTableViewCell.m */,
+				D3E93046196EAB8C00F0C8B3 /* UIBubbleTableView.h */,
+				D3E93047196EAB8C00F0C8B3 /* UIBubbleTableView.m */,
+				D3E93048196EAB8C00F0C8B3 /* UIBubbleTableViewCell.h */,
+				D3E93049196EAB8C00F0C8B3 /* UIBubbleTableViewCell.m */,
+				D3E9304A196EAB8C00F0C8B3 /* UIBubbleTableViewDataSource.h */,
+				D3E9304B196EAB8C00F0C8B3 /* UIBubbleTypingTableViewCell.h */,
+				D3E9304C196EAB8C00F0C8B3 /* UIBubbleTypingTableViewCell.m */,
+			);
+			path = Classes;
 			sourceTree = "<group>";
 		};
 		F95DE376196A87CF0074C3D1 /* Modules */ = {
@@ -807,6 +890,8 @@
 				D3E93024196E913D00F0C8B3 /* like.png in Resources */,
 				302C1884195307E9004F0AB1 /* thumb-profile1.png in Resources */,
 				D3B036FD196D64460008BB1A /* verifications_icon_email.png in Resources */,
+				D3E9305A196EAB9A00F0C8B3 /* bubbleMine.png in Resources */,
+				D3E93060196EAB9A00F0C8B3 /* fav_star.png in Resources */,
 				F9CEAC15196D1F5C00929478 /* chat@2x.png in Resources */,
 				302C188B195307E9004F0AB1 /* toggle-left-on@2x.png in Resources */,
 				302C183F195307E9004F0AB1 /* btn-menu-off.png in Resources */,
@@ -818,6 +903,7 @@
 				30A25D4F1955A2E100C7D61F /* password.png in Resources */,
 				302C188E195307E9004F0AB1 /* toggle-right-on.png in Resources */,
 				F9CEAC17196D1F5C00929478 /* search@2x.png in Resources */,
+				D3E9305E196EAB9A00F0C8B3 /* detail.png in Resources */,
 				D3D96F451964300E005455A7 /* logo@2x.png in Resources */,
 				D3B036FE196D64460008BB1A /* verifications_icon_email@2x.png in Resources */,
 				D3B03701196D64460008BB1A /* verifications_icon_profile_pic.png in Resources */,
@@ -854,11 +940,13 @@
 				304EA0E019543AA3007A2233 /* RegistrationViewController.xib in Resources */,
 				302C188C195307E9004F0AB1 /* toggle-right-off.png in Resources */,
 				304EA0FE1954664C007A2233 /* system_config_boot.png in Resources */,
+				D3E93061196EAB9A00F0C8B3 /* fav_star@2x.png in Resources */,
 				302C185D195307E9004F0AB1 /* divider-light-grey.png in Resources */,
 				302C1870195307E9004F0AB1 /* icon-update2x.png in Resources */,
 				D3D96F3D19642CA2005455A7 /* white bg.png in Resources */,
 				F9B60F31196BECC9002C1166 /* ProfileViewController.xib in Resources */,
 				F943102C196E74BA0087870B /* SimpleTableCell.xib in Resources */,
+				D3E93070196EABB700F0C8B3 /* ForgotPasswordViewController.xib in Resources */,
 				302C185B195307E9004F0AB1 /* divider-grey.png in Resources */,
 				D3E9302B196E913D00F0C8B3 /* heart.png in Resources */,
 				302C1856195307E9004F0AB1 /* cell-light-grey@2x.png in Resources */,
@@ -868,9 +956,11 @@
 				302C1854195307E9004F0AB1 /* cell-dark-grey@2x.png in Resources */,
 				D3E9303F196EA06200F0C8B3 /* JoinSchoolViewController.xib in Resources */,
 				302C185E195307E9004F0AB1 /* divider-light-grey@2x.png in Resources */,
+				D3E9305C196EAB9A00F0C8B3 /* bubbleSomeone.png in Resources */,
 				302C188A195307E9004F0AB1 /* toggle-left-on.png in Resources */,
 				302C1885195307E9004F0AB1 /* thumb-profile1@2x.png in Resources */,
 				D3D96F3F19642CA7005455A7 /* btn_fb.png in Resources */,
+				D3E9306E196EABB700F0C8B3 /* ChatListViewcontroller.xib in Resources */,
 				302C17AA1952FF83004F0AB1 /* Images.xcassets in Resources */,
 				D3E9303A196EA04700F0C8B3 /* AssociatedTrainersViewController.xib in Resources */,
 				302C1889195307E9004F0AB1 /* toggle-left-off@2x.png in Resources */,
@@ -884,9 +974,12 @@
 				D3E93027196E913D00F0C8B3 /* phone.png in Resources */,
 				302C187D195307E9004F0AB1 /* sideport-bg.png in Resources */,
 				302C1860195307E9004F0AB1 /* divider-light-orange@2x.png in Resources */,
+				D3E9305F196EAB9A00F0C8B3 /* dot.png in Resources */,
+				D3E9305B196EAB9A00F0C8B3 /* bubbleMine@2x.png in Resources */,
 				302C1864195307E9004F0AB1 /* icon-feedback@2x.png in Resources */,
 				304EA0FA19546616007A2233 /* chat.jpeg in Resources */,
 				30A25D4919558E7500C7D61F /* DarkBlack.jpg in Resources */,
+				D3E9306C196EABB700F0C8B3 /* ChatCell.xib in Resources */,
 				302C183A195307E9004F0AB1 /* btn-clear-off@2x.png in Resources */,
 				D3E93019196E90D000F0C8B3 /* star-rating.png in Resources */,
 				304EA10A19546D24007A2233 /* logo1.png in Resources */,
@@ -899,6 +992,7 @@
 				D3E9302A196E913D00F0C8B3 /* globe.png in Resources */,
 				302C185C195307E9004F0AB1 /* divider-grey@2x.png in Resources */,
 				302C1858195307E9004F0AB1 /* cell-orange@2x.png in Resources */,
+				D3E9305D196EAB9A00F0C8B3 /* bubbleSomeone@2x.png in Resources */,
 				D3B03700196D64460008BB1A /* verifications_icon_phone@2x.png in Resources */,
 				302C188D195307E9004F0AB1 /* toggle-right-off@2x.png in Resources */,
 				F9B60F3D196BF0B8002C1166 /* search.png in Resources */,
@@ -927,7 +1021,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				302C17A81952FF83004F0AB1 /* Driving_School.xcdatamodeld in Sources */,
+				D3E93051196EAB8C00F0C8B3 /* UIBubbleTypingTableViewCell.m in Sources */,
 				D3E93031196E9FF600F0C8B3 /* SchoolSummaryViewController.m in Sources */,
+				D3E9306D196EABB700F0C8B3 /* ChatListViewcontroller.m in Sources */,
+				D3E9306B196EABB700F0C8B3 /* ChatCell.m in Sources */,
 				304EA0CD1953F7F8007A2233 /* StudentRegistrationViewController.m in Sources */,
 				30A25D4119557B2400C7D61F /* SearchViewController.m in Sources */,
 				F9431028196E74BA0087870B /* ProfileEditViewController.m in Sources */,
@@ -936,20 +1033,25 @@
 				302C17A51952FF83004F0AB1 /* MyclassAppDelegate.m in Sources */,
 				F95DE379196A88240074C3D1 /* StudentEntity.m in Sources */,
 				D3E93039196EA04700F0C8B3 /* AssociatedTrainersViewController.m in Sources */,
+				D3E9304E196EAB8C00F0C8B3 /* UIBubbleHeaderTableViewCell.m in Sources */,
 				F943102A196E74BA0087870B /* ShopViewController.m in Sources */,
 				304EA0DA19541ED7007A2233 /* SignInViewController.m in Sources */,
+				D3E9304F196EAB8C00F0C8B3 /* UIBubbleTableView.m in Sources */,
 				F95DE382196A885F0074C3D1 /* SearchEntity.m in Sources */,
 				F9B60F30196BECC9002C1166 /* ProfileViewController.m in Sources */,
 				F95DE37F196A88510074C3D1 /* SchoolEntity.m in Sources */,
 				304EA0F519545FB0007A2233 /* HomeViewController.m in Sources */,
 				F943102D196E74BA0087870B /* SimpleTableCell.m in Sources */,
 				F95DE37C196A883E0074C3D1 /* TeacherEntity.m in Sources */,
+				D3E9304D196EAB8C00F0C8B3 /* NSBubbleData.m in Sources */,
 				302C17CE195304AC004F0AB1 /* MainViewController.m in Sources */,
 				F9B60F35196BECDB002C1166 /* ChatViewController.m in Sources */,
 				D3E9303E196EA06200F0C8B3 /* JoinSchoolViewController.m in Sources */,
 				304EA0DF19543AA3007A2233 /* RegistrationViewController.m in Sources */,
+				D3E9306F196EABB700F0C8B3 /* ForgotPasswordViewController.m in Sources */,
 				D3B036F3196D5ABF0008BB1A /* SchoolDetailViewController.m in Sources */,
 				304EA0E4195441F0007A2233 /* SchoolRegistrationViewController.m in Sources */,
+				D3E93050196EAB8C00F0C8B3 /* UIBubbleTableViewCell.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

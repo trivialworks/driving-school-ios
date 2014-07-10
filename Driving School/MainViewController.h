@@ -14,6 +14,7 @@
 #import "ChatViewController.h"
 #import "ProfileViewController.h"
 #import "ShopViewController.h"
+#import "ForgotPasswordViewController.h"
 
 @interface MainViewController : UIViewController
 @property (nonatomic, retain) UITabBarController *tab;
@@ -22,5 +23,6 @@
 @property (weak, nonatomic) IBOutlet UIButton *TOS;
 - (IBAction)loginAction:(id)sender;
 - (IBAction)SignUpAction:(id)sender;
+- (IBAction)forgotAction:(id)sender;
 -(void)TabViewContrller;
 @end

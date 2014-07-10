@@ -29,50 +29,13 @@
 
 - (void)viewDidLoad
 {
-         // Do any additional setup after loading the view from its nib.
-//    CGRect screenArea = [[UIScreen mainScreen] applicationFrame];
-//    self.tab=[[UITabBarController alloc]init];
-//    
-//    self.tab.tabBar.backgroundImage=[UIImage imageNamed:@"bottombar.png"];
-//    HomeViewController *firstView=[[HomeViewController alloc]initWithNibName:nil bundle:nil];
-//    //firstView.title=@"Favorites";
-//    firstView.tabBarItem.image=[UIImage imageNamed:@"star.png"];
-//    
-//    SearchViewController *secoundView=[[SearchViewController alloc]initWithNibName:nil bundle:nil];
-//    //secoundView.title=@"Search";
-//    secoundView.tabBarItem.image=[UIImage imageNamed:@"search.png"];
-//    
-//    //SecondViewController
-//   //  ChatViewController *chatViewController = [[ChatViewController alloc] init];
-//    ChatViewController *thirdView=[[ChatViewController alloc]initWithNibName:nil bundle:nil];
-//    //thirdView.title=@"Chat";
-//    thirdView.tabBarItem.image=[UIImage imageNamed:@"chat.png"];
-//    
-//    //ThirdViewController
-//   
-//    ProfileViewController *fourthView=[[ProfileViewController alloc]initWithNibName:nil bundle:nil];
-//    fourthView.title=@"Chat";
-//    fourthView.tabBarItem.image=[UIImage imageNamed:@"profile.png"];
-//    
-//    self.tab.viewControllers=[NSArray arrayWithObjects:  secoundView, thirdView, fourthView, nil];
-//    self.tab.view.frame = CGRectMake(0,0,screenArea.size.width,screenArea.size.height);
-//    [self.view addSubview:self.tab.view];
     
     [super viewDidLoad];
     tableData = [NSArray arrayWithObjects:@"Progressive Driving School", @"Celstial Driving School", @"A Traffic Driving School", @"Progressive Driving School", @"Celstial Driving School", @"A Traffic Driving School", nil];
     
     // Initialize thumbnails
-    thumbnails = [NSArray arrayWithObjects:@"fav_star.png", @"star_without_fill.png", @"fav_star.png", @"star_without_fill.png", @"fav_star.png", @"star_without_fill.png", nil];
+    thumbnails = [NSArray arrayWithObjects:@"fav_star.png", @"fav_star.png", @"fav_star.png", @"fav_star.png", @"fav_star.png", @"fav_star.png", nil];
         tableDataDetail = [NSArray arrayWithObjects:@"Bronx, NY 10453", @"Bronx, NY 10450", @"Bronx, NY 10458", @"Bronx, NY 10485", @"Bronx, NY 10460", @"Bronx, NY 10490",nil];
-    // Find out the path of recipes.plist
-//    NSString *path = [[NSBundle mainBundle] pathForResource:@"recipes" ofType:@"plist"];
-//    
-//    // Load the file content and read the data into arrays
-//    NSDictionary *dict = [[NSDictionary alloc] initWithContentsOfFile:path];
-//    tableData = [dict objectForKey:@"RecipeName"];
-//    thumbnails = [dict objectForKey:@"Thumbnail"];
-//    prepTime = [dict objectForKey:@"PrepTime"];
-
 }
 
 - (void)didReceiveMemoryWarning
@@ -101,8 +64,9 @@
     
     cell.nameLabel.text = [tableData objectAtIndex:indexPath.row];
    // cell.thumbnailImageView.layer.masksToBounds = YES;
-    cell.thumbnailImageView.image = [UIImage imageNamed:[thumbnails objectAtIndex:indexPath.row]];
-    
+   // cell.thumbnailImageView.image = [UIImage imageNamed:[thumbnails objectAtIndex:indexPath.row]];
+
+    cell.imageView.image= [UIImage imageNamed:[thumbnails objectAtIndex:indexPath.row]];
     cell.detailLabel.text = [tableDataDetail objectAtIndex:indexPath.row];
     
     return cell;
