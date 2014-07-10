@@ -9,5 +9,7 @@
 #import <UIKit/UIKit.h>
 
 @interface SchoolSummaryViewController : UIViewController
+@property (strong, nonatomic) IBOutlet UIScrollView *schoolSummaryScrollView;
+- (IBAction)backButtonClick:(id)sender;
 
 @end

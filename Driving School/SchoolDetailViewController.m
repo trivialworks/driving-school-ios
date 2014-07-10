@@ -7,6 +7,9 @@
 //
 
 #import "SchoolDetailViewController.h"
+#import "SchoolSummaryViewController.h"
+#import "AssociatedTrainersViewController.h"
+#import "JoinSchoolViewController.h"
 
 @interface SchoolDetailViewController ()
 
@@ -41,5 +44,17 @@
     [self dismissViewControllerAnimated:YES completion:nil];
 }
 - (IBAction)joinSchoolView:(id)sender {
+    JoinSchoolViewController   *joinSchoolView=[[JoinSchoolViewController alloc]init];
+    [self presentViewController:joinSchoolView animated:YES completion:nil];
+}
+
+- (IBAction)showSchoolOverview:(id)sender {
+    SchoolSummaryViewController   *schoolSummaryView=[[SchoolSummaryViewController alloc]init];
+    [self presentViewController:schoolSummaryView animated:YES completion:nil];
+}
+
+- (IBAction)showAssociatedTrainers:(id)sender {
+    AssociatedTrainersViewController   *associatedTrainersView=[[AssociatedTrainersViewController alloc]init];
+    [self presentViewController:associatedTrainersView animated:YES completion:nil];
 }
 @end

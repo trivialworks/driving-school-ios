@@ -174,6 +174,24 @@
 		D3E93070196EABB700F0C8B3 /* ForgotPasswordViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = D3E9306A196EABB700F0C8B3 /* ForgotPasswordViewController.xib */; };
 		D3E93074196EB43E00F0C8B3 /* TeacherDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D3E93072196EB43E00F0C8B3 /* TeacherDetailViewController.m */; };
 		D3E93075196EB43E00F0C8B3 /* TeacherDetailViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = D3E93073196EB43E00F0C8B3 /* TeacherDetailViewController.xib */; };
+		D3E93086196EC08A00F0C8B3 /* Icon-60.png in Resources */ = {isa = PBXBuildFile; fileRef = D3E93076196EC08A00F0C8B3 /* Icon-60.png */; };
+		D3E93087196EC08A00F0C8B3 /* Icon-60@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D3E93077196EC08A00F0C8B3 /* Icon-60@2x.png */; };
+		D3E93088196EC08A00F0C8B3 /* Icon-72.png in Resources */ = {isa = PBXBuildFile; fileRef = D3E93078196EC08A00F0C8B3 /* Icon-72.png */; };
+		D3E93089196EC08A00F0C8B3 /* Icon-72@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D3E93079196EC08A00F0C8B3 /* Icon-72@2x.png */; };
+		D3E9308A196EC08A00F0C8B3 /* Icon-76.png in Resources */ = {isa = PBXBuildFile; fileRef = D3E9307A196EC08A00F0C8B3 /* Icon-76.png */; };
+		D3E9308B196EC08A00F0C8B3 /* Icon-76@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D3E9307B196EC08A00F0C8B3 /* Icon-76@2x.png */; };
+		D3E9308C196EC08A00F0C8B3 /* Icon-Small-50.png in Resources */ = {isa = PBXBuildFile; fileRef = D3E9307C196EC08A00F0C8B3 /* Icon-Small-50.png */; };
+		D3E9308D196EC08A00F0C8B3 /* Icon-Small-50@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D3E9307D196EC08A00F0C8B3 /* Icon-Small-50@2x.png */; };
+		D3E9308E196EC08A00F0C8B3 /* Icon-Small.png in Resources */ = {isa = PBXBuildFile; fileRef = D3E9307E196EC08A00F0C8B3 /* Icon-Small.png */; };
+		D3E9308F196EC08A00F0C8B3 /* Icon-Small@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D3E9307F196EC08A00F0C8B3 /* Icon-Small@2x.png */; };
+		D3E93090196EC08A00F0C8B3 /* Icon-Spotlight-40.png in Resources */ = {isa = PBXBuildFile; fileRef = D3E93080196EC08A00F0C8B3 /* Icon-Spotlight-40.png */; };
+		D3E93091196EC08A00F0C8B3 /* Icon-Spotlight-40@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D3E93081196EC08A00F0C8B3 /* Icon-Spotlight-40@2x.png */; };
+		D3E93092196EC08A00F0C8B3 /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = D3E93082196EC08A00F0C8B3 /* Icon.png */; };
+		D3E93093196EC08A00F0C8B3 /* Icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D3E93083196EC08A00F0C8B3 /* Icon@2x.png */; };
+		D3E93094196EC08A00F0C8B3 /* iTunesArtwork in Resources */ = {isa = PBXBuildFile; fileRef = D3E93084196EC08A00F0C8B3 /* iTunesArtwork */; };
+		D3E93095196EC08A00F0C8B3 /* iTunesArtwork@2x in Resources */ = {isa = PBXBuildFile; fileRef = D3E93085196EC08A00F0C8B3 /* iTunesArtwork@2x */; };
+		D3E93097196EC25900F0C8B3 /* calendar.png in Resources */ = {isa = PBXBuildFile; fileRef = D3E93096196EC25900F0C8B3 /* calendar.png */; };
+		D3E93099196EC47600F0C8B3 /* wheel.png in Resources */ = {isa = PBXBuildFile; fileRef = D3E93098196EC47600F0C8B3 /* wheel.png */; };
 		F939856719681925003580F5 /* TeacherRegistrationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F939856519681925003580F5 /* TeacherRegistrationViewController.m */; };
 		F939856819681925003580F5 /* TeacherRegistrationViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = F939856619681925003580F5 /* TeacherRegistrationViewController.xib */; };
 		F9431028196E74BA0087870B /* ProfileEditViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F9431020196E74BA0087870B /* ProfileEditViewController.m */; };
@@ -407,6 +425,24 @@
 		D3E93071196EB43E00F0C8B3 /* TeacherDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TeacherDetailViewController.h; sourceTree = "<group>"; };
 		D3E93072196EB43E00F0C8B3 /* TeacherDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TeacherDetailViewController.m; sourceTree = "<group>"; };
 		D3E93073196EB43E00F0C8B3 /* TeacherDetailViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TeacherDetailViewController.xib; sourceTree = "<group>"; };
+		D3E93076196EC08A00F0C8B3 /* Icon-60.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Icon-60.png"; path = "Driving School/Icon-60.png"; sourceTree = "<group>"; };
+		D3E93077196EC08A00F0C8B3 /* Icon-60@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Icon-60@2x.png"; path = "Driving School/Icon-60@2x.png"; sourceTree = "<group>"; };
+		D3E93078196EC08A00F0C8B3 /* Icon-72.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Icon-72.png"; path = "Driving School/Icon-72.png"; sourceTree = "<group>"; };
+		D3E93079196EC08A00F0C8B3 /* Icon-72@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Icon-72@2x.png"; path = "Driving School/Icon-72@2x.png"; sourceTree = "<group>"; };
+		D3E9307A196EC08A00F0C8B3 /* Icon-76.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Icon-76.png"; path = "Driving School/Icon-76.png"; sourceTree = "<group>"; };
+		D3E9307B196EC08A00F0C8B3 /* Icon-76@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Icon-76@2x.png"; path = "Driving School/Icon-76@2x.png"; sourceTree = "<group>"; };
+		D3E9307C196EC08A00F0C8B3 /* Icon-Small-50.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Icon-Small-50.png"; path = "Driving School/Icon-Small-50.png"; sourceTree = "<group>"; };
+		D3E9307D196EC08A00F0C8B3 /* Icon-Small-50@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Icon-Small-50@2x.png"; path = "Driving School/Icon-Small-50@2x.png"; sourceTree = "<group>"; };
+		D3E9307E196EC08A00F0C8B3 /* Icon-Small.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Icon-Small.png"; path = "Driving School/Icon-Small.png"; sourceTree = "<group>"; };
+		D3E9307F196EC08A00F0C8B3 /* Icon-Small@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Icon-Small@2x.png"; path = "Driving School/Icon-Small@2x.png"; sourceTree = "<group>"; };
+		D3E93080196EC08A00F0C8B3 /* Icon-Spotlight-40.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Icon-Spotlight-40.png"; path = "Driving School/Icon-Spotlight-40.png"; sourceTree = "<group>"; };
+		D3E93081196EC08A00F0C8B3 /* Icon-Spotlight-40@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Icon-Spotlight-40@2x.png"; path = "Driving School/Icon-Spotlight-40@2x.png"; sourceTree = "<group>"; };
+		D3E93082196EC08A00F0C8B3 /* Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Icon.png; path = "Driving School/Icon.png"; sourceTree = "<group>"; };
+		D3E93083196EC08A00F0C8B3 /* Icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Icon@2x.png"; path = "Driving School/Icon@2x.png"; sourceTree = "<group>"; };
+		D3E93084196EC08A00F0C8B3 /* iTunesArtwork */ = {isa = PBXFileReference; lastKnownFileType = file; name = iTunesArtwork; path = "Driving School/iTunesArtwork"; sourceTree = "<group>"; };
+		D3E93085196EC08A00F0C8B3 /* iTunesArtwork@2x */ = {isa = PBXFileReference; lastKnownFileType = file; name = "iTunesArtwork@2x"; path = "Driving School/iTunesArtwork@2x"; sourceTree = "<group>"; };
+		D3E93096196EC25900F0C8B3 /* calendar.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = calendar.png; sourceTree = "<group>"; };
+		D3E93098196EC47600F0C8B3 /* wheel.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = wheel.png; path = ../wheel.png; sourceTree = "<group>"; };
 		F939856419681925003580F5 /* TeacherRegistrationViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TeacherRegistrationViewController.h; sourceTree = "<group>"; };
 		F939856519681925003580F5 /* TeacherRegistrationViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TeacherRegistrationViewController.m; sourceTree = "<group>"; };
 		F939856619681925003580F5 /* TeacherRegistrationViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TeacherRegistrationViewController.xib; sourceTree = "<group>"; };
@@ -477,6 +513,22 @@
 		302C17861952FF83004F0AB1 = {
 			isa = PBXGroup;
 			children = (
+				D3E93076196EC08A00F0C8B3 /* Icon-60.png */,
+				D3E93077196EC08A00F0C8B3 /* Icon-60@2x.png */,
+				D3E93078196EC08A00F0C8B3 /* Icon-72.png */,
+				D3E93079196EC08A00F0C8B3 /* Icon-72@2x.png */,
+				D3E9307A196EC08A00F0C8B3 /* Icon-76.png */,
+				D3E9307B196EC08A00F0C8B3 /* Icon-76@2x.png */,
+				D3E9307C196EC08A00F0C8B3 /* Icon-Small-50.png */,
+				D3E9307D196EC08A00F0C8B3 /* Icon-Small-50@2x.png */,
+				D3E9307E196EC08A00F0C8B3 /* Icon-Small.png */,
+				D3E9307F196EC08A00F0C8B3 /* Icon-Small@2x.png */,
+				D3E93080196EC08A00F0C8B3 /* Icon-Spotlight-40.png */,
+				D3E93081196EC08A00F0C8B3 /* Icon-Spotlight-40@2x.png */,
+				D3E93082196EC08A00F0C8B3 /* Icon.png */,
+				D3E93083196EC08A00F0C8B3 /* Icon@2x.png */,
+				D3E93084196EC08A00F0C8B3 /* iTunesArtwork */,
+				D3E93085196EC08A00F0C8B3 /* iTunesArtwork@2x */,
 				D3B03707196D65520008BB1A /* Default-568h@2x.png */,
 				302C179A1952FF83004F0AB1 /* Driving School */,
 				302C17B71952FF83004F0AB1 /* Driving SchoolTests */,
@@ -618,6 +670,7 @@
 		302C17D0195307E9004F0AB1 /* Images */ = {
 			isa = PBXGroup;
 			children = (
+				D3E93096196EC25900F0C8B3 /* calendar.png */,
 				D3E93052196EAB9A00F0C8B3 /* bubbleMine.png */,
 				D3E93053196EAB9A00F0C8B3 /* bubbleMine@2x.png */,
 				D3E93054196EAB9A00F0C8B3 /* bubbleSomeone.png */,
@@ -744,6 +797,7 @@
 				302C182D195307E9004F0AB1 /* toggle-right-off@2x.png */,
 				302C182E195307E9004F0AB1 /* toggle-right-on.png */,
 				302C182F195307E9004F0AB1 /* toggle-right-on@2x.png */,
+				D3E93098196EC47600F0C8B3 /* wheel.png */,
 				302C1830195307E9004F0AB1 /* Whitebg.png */,
 			);
 			path = Images;
@@ -867,6 +921,7 @@
 				302C1855195307E9004F0AB1 /* cell-light-grey.png in Resources */,
 				304EA1061954687A007A2233 /* settingicon.png in Resources */,
 				302C183C195307E9004F0AB1 /* btn-less-off@2x.png in Resources */,
+				D3E9308D196EC08A00F0C8B3 /* Icon-Small-50@2x.png in Resources */,
 				302C183B195307E9004F0AB1 /* btn-less-off.png in Resources */,
 				D3D96F3B19642C99005455A7 /* logo.png in Resources */,
 				302C1847195307E9004F0AB1 /* btn-report-off.png in Resources */,
@@ -874,6 +929,7 @@
 				302C188F195307E9004F0AB1 /* toggle-right-on@2x.png in Resources */,
 				302C1833195307E9004F0AB1 /* btn-add-on.png in Resources */,
 				302C1871195307E9004F0AB1 /* inputbox1.png in Resources */,
+				D3E93090196EC08A00F0C8B3 /* Icon-Spotlight-40.png in Resources */,
 				302C185F195307E9004F0AB1 /* divider-light-orange.png in Resources */,
 				F9B60F3E196BF0B8002C1166 /* star.png in Resources */,
 				302C1831195307E9004F0AB1 /* btn-add-off.png in Resources */,
@@ -884,6 +940,7 @@
 				D3D96F4119642CAE005455A7 /* btn.png in Resources */,
 				D3B03705196D64C60008BB1A /* amenities-internet.png in Resources */,
 				302C1857195307E9004F0AB1 /* cell-orange.png in Resources */,
+				D3E93086196EC08A00F0C8B3 /* Icon-60.png in Resources */,
 				302C184A195307E9004F0AB1 /* btn-report-on@2x.png in Resources */,
 				302C187E195307E9004F0AB1 /* sideport-bg@2x.png in Resources */,
 				304EA0E5195441F0007A2233 /* SchoolRegistrationViewController.xib in Resources */,
@@ -894,6 +951,7 @@
 				F9B60F36196BECDB002C1166 /* ChatViewController.xib in Resources */,
 				302C1883195307E9004F0AB1 /* TapColour.png in Resources */,
 				302C1835195307E9004F0AB1 /* btn-back-off.png in Resources */,
+				D3E9308C196EC08A00F0C8B3 /* Icon-Small-50.png in Resources */,
 				302C1865195307E9004F0AB1 /* icon-photo.png in Resources */,
 				D3E93024196E913D00F0C8B3 /* like.png in Resources */,
 				302C1884195307E9004F0AB1 /* thumb-profile1.png in Resources */,
@@ -911,12 +969,15 @@
 				30A25D4F1955A2E100C7D61F /* password.png in Resources */,
 				302C188E195307E9004F0AB1 /* toggle-right-on.png in Resources */,
 				F9CEAC17196D1F5C00929478 /* search@2x.png in Resources */,
+				D3E93097196EC25900F0C8B3 /* calendar.png in Resources */,
 				D3E9305E196EAB9A00F0C8B3 /* detail.png in Resources */,
+				D3E9308A196EC08A00F0C8B3 /* Icon-76.png in Resources */,
 				D3D96F451964300E005455A7 /* logo@2x.png in Resources */,
 				D3B036FE196D64460008BB1A /* verifications_icon_email@2x.png in Resources */,
 				D3B03701196D64460008BB1A /* verifications_icon_profile_pic.png in Resources */,
 				30A25D4D1955A25300C7D61F /* icon_forgot_username.png in Resources */,
 				304EA0DB19541ED7007A2233 /* SignInViewController.xib in Resources */,
+				D3E93092196EC08A00F0C8B3 /* Icon.png in Resources */,
 				D3E93029196E913D00F0C8B3 /* user.png in Resources */,
 				F9CEAC16196D1F5C00929478 /* profile@2x.png in Resources */,
 				302C1849195307E9004F0AB1 /* btn-report-on.png in Resources */,
@@ -931,6 +992,8 @@
 				302C1868195307E9004F0AB1 /* icon-settings@2x.png in Resources */,
 				302C1888195307E9004F0AB1 /* toggle-left-off.png in Resources */,
 				302C1866195307E9004F0AB1 /* icon-photo@2x.png in Resources */,
+				D3E93094196EC08A00F0C8B3 /* iTunesArtwork in Resources */,
+				D3E93093196EC08A00F0C8B3 /* Icon@2x.png in Resources */,
 				302C1844195307E9004F0AB1 /* btn-more-off@2x.png in Resources */,
 				302C17CA19530109004F0AB1 /* blue_facebook_text_quotes_textures_blue_background_message_1920x1080_wallpaper_Wallpaper_640x960_www.wall321.com.jpg in Resources */,
 				302C183D195307E9004F0AB1 /* btn-less-on.png in Resources */,
@@ -970,6 +1033,7 @@
 				302C1885195307E9004F0AB1 /* thumb-profile1@2x.png in Resources */,
 				D3D96F3F19642CA7005455A7 /* btn_fb.png in Resources */,
 				D3E9306E196EABB700F0C8B3 /* ChatListViewcontroller.xib in Resources */,
+				D3E93088196EC08A00F0C8B3 /* Icon-72.png in Resources */,
 				302C17AA1952FF83004F0AB1 /* Images.xcassets in Resources */,
 				D3E9303A196EA04700F0C8B3 /* AssociatedTrainersViewController.xib in Resources */,
 				302C1889195307E9004F0AB1 /* toggle-left-off@2x.png in Resources */,
@@ -978,23 +1042,29 @@
 				304EA0FB19546616007A2233 /* home.jpeg in Resources */,
 				302C1836195307E9004F0AB1 /* btn-back-off@2x.png in Resources */,
 				302C185A195307E9004F0AB1 /* cell-white@2x.png in Resources */,
+				D3E93087196EC08A00F0C8B3 /* Icon-60@2x.png in Resources */,
+				D3E9308B196EC08A00F0C8B3 /* Icon-76@2x.png in Resources */,
 				D3D96F4319642CC0005455A7 /* textbox_bg.png in Resources */,
 				F943102B196E74BA0087870B /* ShopViewController.xib in Resources */,
 				D3E93027196E913D00F0C8B3 /* phone.png in Resources */,
 				302C187D195307E9004F0AB1 /* sideport-bg.png in Resources */,
 				302C1860195307E9004F0AB1 /* divider-light-orange@2x.png in Resources */,
 				D3E9305F196EAB9A00F0C8B3 /* dot.png in Resources */,
+				D3E93089196EC08A00F0C8B3 /* Icon-72@2x.png in Resources */,
 				D3E9305B196EAB9A00F0C8B3 /* bubbleMine@2x.png in Resources */,
+				D3E93091196EC08A00F0C8B3 /* Icon-Spotlight-40@2x.png in Resources */,
 				302C1864195307E9004F0AB1 /* icon-feedback@2x.png in Resources */,
 				304EA0FA19546616007A2233 /* chat.jpeg in Resources */,
 				30A25D4919558E7500C7D61F /* DarkBlack.jpg in Resources */,
 				D3E9306C196EABB700F0C8B3 /* ChatCell.xib in Resources */,
 				302C183A195307E9004F0AB1 /* btn-clear-off@2x.png in Resources */,
+				D3E93099196EC47600F0C8B3 /* wheel.png in Resources */,
 				D3E93019196E90D000F0C8B3 /* star-rating.png in Resources */,
 				304EA10A19546D24007A2233 /* logo1.png in Resources */,
 				F939856819681925003580F5 /* TeacherRegistrationViewController.xib in Resources */,
 				304EA0F619545FB0007A2233 /* HomeViewController.xib in Resources */,
 				302C17CF195304AC004F0AB1 /* MainViewController.xib in Resources */,
+				D3E9308F196EC08A00F0C8B3 /* Icon-Small@2x.png in Resources */,
 				302C1853195307E9004F0AB1 /* cell-dark-grey.png in Resources */,
 				304EA0F11954517F007A2233 /* pureWhite.png in Resources */,
 				D3B03706196D64C60008BB1A /* amenities-internet@2x.png in Resources */,
@@ -1002,6 +1072,8 @@
 				302C185C195307E9004F0AB1 /* divider-grey@2x.png in Resources */,
 				302C1858195307E9004F0AB1 /* cell-orange@2x.png in Resources */,
 				D3E9305D196EAB9A00F0C8B3 /* bubbleSomeone@2x.png in Resources */,
+				D3E93095196EC08A00F0C8B3 /* iTunesArtwork@2x in Resources */,
+				D3E9308E196EC08A00F0C8B3 /* Icon-Small.png in Resources */,
 				D3B03700196D64460008BB1A /* verifications_icon_phone@2x.png in Resources */,
 				302C188D195307E9004F0AB1 /* toggle-right-off@2x.png in Resources */,
 				F9B60F3D196BF0B8002C1166 /* search.png in Resources */,
@@ -1178,7 +1250,6 @@
 		302C17C21952FF83004F0AB1 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_OBJC_ARC = YES;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Driving School/Driving School-Prefix.pch";
@@ -1191,7 +1262,6 @@
 		302C17C31952FF83004F0AB1 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_OBJC_ARC = YES;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Driving School/Driving School-Prefix.pch";

@@ -9,5 +9,7 @@
 #import <UIKit/UIKit.h>
 
 @interface TeacherDetailViewController : UIViewController
+@property (strong, nonatomic) IBOutlet UIScrollView *scrollView;
+- (IBAction)backButtonClick:(id)sender;
 
 @end

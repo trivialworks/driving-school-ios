@@ -9,5 +9,6 @@
 #import <UIKit/UIKit.h>
 
 @interface JoinSchoolViewController : UIViewController
+- (IBAction)backButtonClick:(id)sender;
 
 @end

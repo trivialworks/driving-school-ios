@@ -12,5 +12,7 @@
 - (IBAction)closeSchoolDetail:(id)sender;
 @property (strong, nonatomic) IBOutlet UIScrollView *Scroll;
 - (IBAction)joinSchoolView:(id)sender;
+- (IBAction)showSchoolOverview:(id)sender;
+- (IBAction)showAssociatedTrainers:(id)sender;
 
 @end

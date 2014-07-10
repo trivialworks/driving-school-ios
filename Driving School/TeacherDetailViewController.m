@@ -13,7 +13,7 @@
 @end
 
 @implementation TeacherDetailViewController
-
+@synthesize scrollView;
 - (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil
 {
     self = [super initWithNibName:nibNameOrNil bundle:nibBundleOrNil];
@@ -26,6 +26,8 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
+       scrollView.contentSize=CGSizeMake(320, 880);
+
     // Do any additional setup after loading the view from its nib.
 }
 
@@ -35,4 +37,7 @@
     // Dispose of any resources that can be recreated.
 }
 
+- (IBAction)backButtonClick:(id)sender {
+    [self dismissViewControllerAnimated:YES completion:nil];
+}
 @end

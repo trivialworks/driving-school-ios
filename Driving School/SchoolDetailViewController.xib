@@ -175,6 +175,9 @@
                                         <color key="titleColor" red="0.0" green="0.6588235294" blue="0.94117647059999998" alpha="1" colorSpace="calibratedRGB"/>
                                         <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                     </state>
+                                    <connections>
+                                        <action selector="showSchoolOverview:" destination="-1" eventType="touchUpInside" id="Bbh-P8-oaD"/>
+                                    </connections>
                                 </button>
                                 <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="hkR-4d-WVb">
                                     <rect key="frame" x="0.0" y="350" width="320" height="220"/>
@@ -358,6 +361,9 @@
                                         <color key="titleColor" red="0.0" green="0.6588235294" blue="0.94117647059999998" alpha="1" colorSpace="calibratedRGB"/>
                                         <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                     </state>
+                                    <connections>
+                                        <action selector="showAssociatedTrainers:" destination="-1" eventType="touchUpInside" id="jrr-9c-Mhe"/>
+                                    </connections>
                                 </button>
                             </subviews>
                             <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
