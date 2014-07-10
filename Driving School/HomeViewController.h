@@ -16,5 +16,8 @@
 @interface HomeViewController : UIViewController <UITableViewDelegate, UITableViewDataSource>   
 @property (nonatomic, retain) UITabBarController *tab;
 - (IBAction)btnSearch:(id)sender;
+@property (strong, nonatomic) IBOutlet UISegmentedControl *segmentView;
+- (IBAction)teacherSchoolSegmentChanged:(id)sender;
+@property (strong, nonatomic) IBOutlet UITableView *favoriteItemsTableView;
 
 @end

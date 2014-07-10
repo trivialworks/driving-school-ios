@@ -44,4 +44,10 @@
 {
     [self.view endEditing:TRUE];
 }
+
+- (BOOL)textFieldShouldReturn:(UITextField*)textField
+{
+    [textField resignFirstResponder];
+    return YES;
+}
 @end

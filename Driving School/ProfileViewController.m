@@ -54,7 +54,7 @@
 - (IBAction)onLogoutAction:(id)sender {
     
     UIAlertView *alert = [[UIAlertView alloc] initWithTitle:@"Logout" message:@"Do You Want to Logout !!" delegate:nil cancelButtonTitle:@"Cancel" otherButtonTitles:@"Logout", nil];
-    [alert show];
+   // [alert show];
 
     MainViewController *mainViewController = [[MainViewController alloc] initWithNibName:@"MainViewController" bundle:nil];
     [self presentViewController:mainViewController animated:NO completion:nil];

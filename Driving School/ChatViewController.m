@@ -33,7 +33,7 @@
 {
     [super viewDidLoad];
     arrImg=[[NSMutableArray alloc]initWithObjects:@"thumb-profile2.png",@"thumb-profile1@2x.png",@"thumb-profile2.png",@"thumb-profile1@2x.png",@"thumb-profile2.png", nil];
-    arrName=[[NSMutableArray alloc]initWithObjects:@"Jhon Corter",@"Jennifer Garrn",@"Aaliyah Begh",@"Leonardo Robbie",@"Ali", nil];
+    arrName=[[NSMutableArray alloc]initWithObjects:@"John Carter",@"Jennifer Garrn",@"Aaliyah Begh",@"Leonardo Robbie",@"Ali", nil];
 [searchView setFrame:CGRectMake(0,0,80,200)];
    
     // Do any additional setup after loading the view from its nib.
