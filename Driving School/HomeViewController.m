@@ -110,7 +110,7 @@
 - (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath
 {
     NSLog(@"didSelectRowAtIndexPath");
-    SchollDetailViewController *searchViewController = [[SchollDetailViewController alloc] init];
+    SchoolDetailViewController *searchViewController = [[SchoolDetailViewController alloc] init];
     [self presentViewController:searchViewController animated:YES completion:nil];
 
 }

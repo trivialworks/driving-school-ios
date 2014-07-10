@@ -6,13 +6,13 @@
 //  Copyright (c) 2014 Anuj Singh. All rights reserved.
 //
 
-#import "SchollDetailViewController.h"
+#import "SchoolDetailViewController.h"
 
-@interface SchollDetailViewController ()
+@interface SchoolDetailViewController ()
 
 @end
 
-@implementation SchollDetailViewController
+@implementation SchoolDetailViewController
 
 - (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil
 {
@@ -27,7 +27,7 @@
 {
     [super viewDidLoad];
     // Do any additional setup after loading the view from its nib.
-    _Scroll.contentSize=CGSizeMake(320, 400);;
+    _Scroll.contentSize=CGSizeMake(320, 950);
     
 }
 
@@ -39,5 +39,7 @@
 
 - (IBAction)closeSchoolDetail:(id)sender {
     [self dismissViewControllerAnimated:YES completion:nil];
+}
+- (IBAction)joinSchoolView:(id)sender {
 }
 @end

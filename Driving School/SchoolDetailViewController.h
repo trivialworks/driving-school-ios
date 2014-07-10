@@ -8,8 +8,9 @@
 
 #import <UIKit/UIKit.h>
 
-@interface SchollDetailViewController : UIViewController
+@interface SchoolDetailViewController : UIViewController
 - (IBAction)closeSchoolDetail:(id)sender;
 @property (strong, nonatomic) IBOutlet UIScrollView *Scroll;
+- (IBAction)joinSchoolView:(id)sender;
 
 @end

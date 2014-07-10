@@ -11,7 +11,7 @@
 #import "ChatViewController.h"
 #import "ProfileViewController.h"
 #import "SimpleTableCell.h"
-#import "SchollDetailViewController.h"
+#import "SchoolDetailViewController.h"
 
 @interface HomeViewController : UIViewController <UITableViewDelegate, UITableViewDataSource>   
 @property (nonatomic, retain) UITabBarController *tab;

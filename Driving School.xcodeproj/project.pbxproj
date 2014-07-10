@@ -117,8 +117,8 @@
 		30A25D4B19558F0C00C7D61F /* homescreen fifa black.png in Resources */ = {isa = PBXBuildFile; fileRef = 30A25D4A19558F0C00C7D61F /* homescreen fifa black.png */; };
 		30A25D4D1955A25300C7D61F /* icon_forgot_username.png in Resources */ = {isa = PBXBuildFile; fileRef = 30A25D4C1955A25300C7D61F /* icon_forgot_username.png */; };
 		30A25D4F1955A2E100C7D61F /* password.png in Resources */ = {isa = PBXBuildFile; fileRef = 30A25D4E1955A2E100C7D61F /* password.png */; };
-		D3B036F3196D5ABF0008BB1A /* SchollDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D3B036F1196D5ABF0008BB1A /* SchollDetailViewController.m */; };
-		D3B036F4196D5ABF0008BB1A /* SchollDetailViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = D3B036F2196D5ABF0008BB1A /* SchollDetailViewController.xib */; };
+		D3B036F3196D5ABF0008BB1A /* SchoolDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D3B036F1196D5ABF0008BB1A /* SchoolDetailViewController.m */; };
+		D3B036F4196D5ABF0008BB1A /* SchoolDetailViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = D3B036F2196D5ABF0008BB1A /* SchoolDetailViewController.xib */; };
 		D3B036F6196D5E580008BB1A /* drivingschool.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D3B036F5196D5E580008BB1A /* drivingschool.jpg */; };
 		D3B036FD196D64460008BB1A /* verifications_icon_email.png in Resources */ = {isa = PBXBuildFile; fileRef = D3B036F7196D64460008BB1A /* verifications_icon_email.png */; };
 		D3B036FE196D64460008BB1A /* verifications_icon_email@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D3B036F8196D64460008BB1A /* verifications_icon_email@2x.png */; };
@@ -136,6 +136,17 @@
 		D3D96F4119642CAE005455A7 /* btn.png in Resources */ = {isa = PBXBuildFile; fileRef = D3D96F4019642CAE005455A7 /* btn.png */; };
 		D3D96F4319642CC0005455A7 /* textbox_bg.png in Resources */ = {isa = PBXBuildFile; fileRef = D3D96F4219642CC0005455A7 /* textbox_bg.png */; };
 		D3D96F451964300E005455A7 /* logo@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D3D96F441964300E005455A7 /* logo@2x.png */; };
+		D3E93019196E90D000F0C8B3 /* star-rating.png in Resources */ = {isa = PBXBuildFile; fileRef = D3E93018196E90D000F0C8B3 /* star-rating.png */; };
+		D3E93023196E913D00F0C8B3 /* tag.png in Resources */ = {isa = PBXBuildFile; fileRef = D3E9301A196E913D00F0C8B3 /* tag.png */; };
+		D3E93024196E913D00F0C8B3 /* like.png in Resources */ = {isa = PBXBuildFile; fileRef = D3E9301B196E913D00F0C8B3 /* like.png */; };
+		D3E93025196E913D00F0C8B3 /* mail-1.png in Resources */ = {isa = PBXBuildFile; fileRef = D3E9301C196E913D00F0C8B3 /* mail-1.png */; };
+		D3E93026196E913D00F0C8B3 /* mail-2.png in Resources */ = {isa = PBXBuildFile; fileRef = D3E9301D196E913D00F0C8B3 /* mail-2.png */; };
+		D3E93027196E913D00F0C8B3 /* phone.png in Resources */ = {isa = PBXBuildFile; fileRef = D3E9301E196E913D00F0C8B3 /* phone.png */; };
+		D3E93028196E913D00F0C8B3 /* trolley.png in Resources */ = {isa = PBXBuildFile; fileRef = D3E9301F196E913D00F0C8B3 /* trolley.png */; };
+		D3E93029196E913D00F0C8B3 /* user.png in Resources */ = {isa = PBXBuildFile; fileRef = D3E93020196E913D00F0C8B3 /* user.png */; };
+		D3E9302A196E913D00F0C8B3 /* globe.png in Resources */ = {isa = PBXBuildFile; fileRef = D3E93021196E913D00F0C8B3 /* globe.png */; };
+		D3E9302B196E913D00F0C8B3 /* heart.png in Resources */ = {isa = PBXBuildFile; fileRef = D3E93022196E913D00F0C8B3 /* heart.png */; };
+		D3E9302D196E9D8D00F0C8B3 /* eye.png in Resources */ = {isa = PBXBuildFile; fileRef = D3E9302C196E9D8D00F0C8B3 /* eye.png */; };
 		F939856719681925003580F5 /* TeacherRegistrationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F939856519681925003580F5 /* TeacherRegistrationViewController.m */; };
 		F939856819681925003580F5 /* TeacherRegistrationViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = F939856619681925003580F5 /* TeacherRegistrationViewController.xib */; };
 		F9431028196E74BA0087870B /* ProfileEditViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F9431020196E74BA0087870B /* ProfileEditViewController.m */; };
@@ -298,9 +309,9 @@
 		30A25D4A19558F0C00C7D61F /* homescreen fifa black.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "homescreen fifa black.png"; sourceTree = "<group>"; };
 		30A25D4C1955A25300C7D61F /* icon_forgot_username.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon_forgot_username.png; sourceTree = "<group>"; };
 		30A25D4E1955A2E100C7D61F /* password.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = password.png; sourceTree = "<group>"; };
-		D3B036F0196D5ABF0008BB1A /* SchollDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SchollDetailViewController.h; sourceTree = "<group>"; };
-		D3B036F1196D5ABF0008BB1A /* SchollDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SchollDetailViewController.m; sourceTree = "<group>"; };
-		D3B036F2196D5ABF0008BB1A /* SchollDetailViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SchollDetailViewController.xib; sourceTree = "<group>"; };
+		D3B036F0196D5ABF0008BB1A /* SchoolDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SchoolDetailViewController.h; sourceTree = "<group>"; };
+		D3B036F1196D5ABF0008BB1A /* SchoolDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SchoolDetailViewController.m; sourceTree = "<group>"; };
+		D3B036F2196D5ABF0008BB1A /* SchoolDetailViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SchoolDetailViewController.xib; sourceTree = "<group>"; };
 		D3B036F5196D5E580008BB1A /* drivingschool.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = drivingschool.jpg; sourceTree = "<group>"; };
 		D3B036F7196D64460008BB1A /* verifications_icon_email.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = verifications_icon_email.png; sourceTree = "<group>"; };
 		D3B036F8196D64460008BB1A /* verifications_icon_email@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "verifications_icon_email@2x.png"; sourceTree = "<group>"; };
@@ -318,6 +329,17 @@
 		D3D96F4019642CAE005455A7 /* btn.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = btn.png; sourceTree = "<group>"; };
 		D3D96F4219642CC0005455A7 /* textbox_bg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = textbox_bg.png; sourceTree = "<group>"; };
 		D3D96F441964300E005455A7 /* logo@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "logo@2x.png"; sourceTree = "<group>"; };
+		D3E93018196E90D000F0C8B3 /* star-rating.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "star-rating.png"; sourceTree = "<group>"; };
+		D3E9301A196E913D00F0C8B3 /* tag.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = tag.png; sourceTree = "<group>"; };
+		D3E9301B196E913D00F0C8B3 /* like.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = like.png; sourceTree = "<group>"; };
+		D3E9301C196E913D00F0C8B3 /* mail-1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "mail-1.png"; sourceTree = "<group>"; };
+		D3E9301D196E913D00F0C8B3 /* mail-2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "mail-2.png"; sourceTree = "<group>"; };
+		D3E9301E196E913D00F0C8B3 /* phone.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = phone.png; sourceTree = "<group>"; };
+		D3E9301F196E913D00F0C8B3 /* trolley.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = trolley.png; sourceTree = "<group>"; };
+		D3E93020196E913D00F0C8B3 /* user.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = user.png; sourceTree = "<group>"; };
+		D3E93021196E913D00F0C8B3 /* globe.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = globe.png; sourceTree = "<group>"; };
+		D3E93022196E913D00F0C8B3 /* heart.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = heart.png; sourceTree = "<group>"; };
+		D3E9302C196E9D8D00F0C8B3 /* eye.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = eye.png; sourceTree = "<group>"; };
 		F939856419681925003580F5 /* TeacherRegistrationViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TeacherRegistrationViewController.h; sourceTree = "<group>"; };
 		F939856519681925003580F5 /* TeacherRegistrationViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TeacherRegistrationViewController.m; sourceTree = "<group>"; };
 		F939856619681925003580F5 /* TeacherRegistrationViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TeacherRegistrationViewController.xib; sourceTree = "<group>"; };
@@ -467,9 +489,9 @@
 				F9B60F32196BECDB002C1166 /* ChatViewController.h */,
 				F9B60F33196BECDB002C1166 /* ChatViewController.m */,
 				F9B60F34196BECDB002C1166 /* ChatViewController.xib */,
-				D3B036F0196D5ABF0008BB1A /* SchollDetailViewController.h */,
-				D3B036F1196D5ABF0008BB1A /* SchollDetailViewController.m */,
-				D3B036F2196D5ABF0008BB1A /* SchollDetailViewController.xib */,
+				D3B036F0196D5ABF0008BB1A /* SchoolDetailViewController.h */,
+				D3B036F1196D5ABF0008BB1A /* SchoolDetailViewController.m */,
+				D3B036F2196D5ABF0008BB1A /* SchoolDetailViewController.xib */,
 			);
 			path = "Driving School";
 			sourceTree = "<group>";
@@ -507,10 +529,20 @@
 		302C17D0195307E9004F0AB1 /* Images */ = {
 			isa = PBXGroup;
 			children = (
+				D3E9301A196E913D00F0C8B3 /* tag.png */,
+				D3E9301B196E913D00F0C8B3 /* like.png */,
+				D3E9301C196E913D00F0C8B3 /* mail-1.png */,
+				D3E9301D196E913D00F0C8B3 /* mail-2.png */,
+				D3E9301E196E913D00F0C8B3 /* phone.png */,
+				D3E9301F196E913D00F0C8B3 /* trolley.png */,
+				D3E93020196E913D00F0C8B3 /* user.png */,
+				D3E93021196E913D00F0C8B3 /* globe.png */,
+				D3E93022196E913D00F0C8B3 /* heart.png */,
 				D3B036F5196D5E580008BB1A /* drivingschool.jpg */,
 				F9CEAC10196D1F5C00929478 /* cart@2x.png */,
 				F9CEAC11196D1F5C00929478 /* chat@2x.png */,
 				F9CEAC12196D1F5C00929478 /* profile@2x.png */,
+				D3E93018196E90D000F0C8B3 /* star-rating.png */,
 				F9CEAC13196D1F5C00929478 /* search@2x.png */,
 				F9E0FD74196D1E7B003AA1FE /* star@2x.png */,
 				F9E0FD72196D1CD7003AA1FE /* up_bar.png */,
@@ -605,6 +637,7 @@
 				D3B036FB196D64460008BB1A /* verifications_icon_profile_pic.png */,
 				D3B036FC196D64460008BB1A /* verifications_icon_profile_pic@2x.png */,
 				302C1826195307E9004F0AB1 /* thumb-profile2.png */,
+				D3E9302C196E9D8D00F0C8B3 /* eye.png */,
 				302C1827195307E9004F0AB1 /* thumb-profile2@2x.png */,
 				302C1828195307E9004F0AB1 /* toggle-left-off.png */,
 				302C1829195307E9004F0AB1 /* toggle-left-off@2x.png */,
@@ -710,6 +743,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D3E93023196E913D00F0C8B3 /* tag.png in Resources */,
 				F9B60F40196C0DBC002C1166 /* bottombar.png in Resources */,
 				F9E0FD71196D0764003AA1FE /* cart.png in Resources */,
 				F9E0FD73196D1CD7003AA1FE /* up_bar.png in Resources */,
@@ -728,6 +762,7 @@
 				302C185F195307E9004F0AB1 /* divider-light-orange.png in Resources */,
 				F9B60F3E196BF0B8002C1166 /* star.png in Resources */,
 				302C1831195307E9004F0AB1 /* btn-add-off.png in Resources */,
+				D3E93028196E913D00F0C8B3 /* trolley.png in Resources */,
 				D3B03708196D65520008BB1A /* Default-568h@2x.png in Resources */,
 				302C1859195307E9004F0AB1 /* cell-white.png in Resources */,
 				302C1834195307E9004F0AB1 /* btn-add-on@2x.png in Resources */,
@@ -745,6 +780,7 @@
 				302C1883195307E9004F0AB1 /* TapColour.png in Resources */,
 				302C1835195307E9004F0AB1 /* btn-back-off.png in Resources */,
 				302C1865195307E9004F0AB1 /* icon-photo.png in Resources */,
+				D3E93024196E913D00F0C8B3 /* like.png in Resources */,
 				302C1884195307E9004F0AB1 /* thumb-profile1.png in Resources */,
 				D3B036FD196D64460008BB1A /* verifications_icon_email.png in Resources */,
 				F9CEAC15196D1F5C00929478 /* chat@2x.png in Resources */,
@@ -763,6 +799,7 @@
 				D3B03701196D64460008BB1A /* verifications_icon_profile_pic.png in Resources */,
 				30A25D4D1955A25300C7D61F /* icon_forgot_username.png in Resources */,
 				304EA0DB19541ED7007A2233 /* SignInViewController.xib in Resources */,
+				D3E93029196E913D00F0C8B3 /* user.png in Resources */,
 				F9CEAC16196D1F5C00929478 /* profile@2x.png in Resources */,
 				302C1849195307E9004F0AB1 /* btn-report-on.png in Resources */,
 				302C186F195307E9004F0AB1 /* icon-update.png in Resources */,
@@ -781,12 +818,14 @@
 				302C183D195307E9004F0AB1 /* btn-less-on.png in Resources */,
 				F9CEAC14196D1F5C00929478 /* cart@2x.png in Resources */,
 				302C179F1952FF83004F0AB1 /* InfoPlist.strings in Resources */,
+				D3E9302D196E9D8D00F0C8B3 /* eye.png in Resources */,
 				302C1843195307E9004F0AB1 /* btn-more-off.png in Resources */,
 				302C1846195307E9004F0AB1 /* btn-more-on@2x.png in Resources */,
 				302C1872195307E9004F0AB1 /* inputbox1@2x.png in Resources */,
 				302C1845195307E9004F0AB1 /* btn-more-on.png in Resources */,
 				F9B60F29196BEAB7002C1166 /* Window.xib in Resources */,
 				F9B60F3B196BF0B8002C1166 /* chat.png in Resources */,
+				D3E93026196E913D00F0C8B3 /* mail-2.png in Resources */,
 				302C1840195307E9004F0AB1 /* btn-menu-off@2x.png in Resources */,
 				304EA0E019543AA3007A2233 /* RegistrationViewController.xib in Resources */,
 				302C188C195307E9004F0AB1 /* toggle-right-off.png in Resources */,
@@ -797,6 +836,7 @@
 				F9B60F31196BECC9002C1166 /* ProfileViewController.xib in Resources */,
 				F943102C196E74BA0087870B /* SimpleTableCell.xib in Resources */,
 				302C185B195307E9004F0AB1 /* divider-grey.png in Resources */,
+				D3E9302B196E913D00F0C8B3 /* heart.png in Resources */,
 				302C1856195307E9004F0AB1 /* cell-light-grey@2x.png in Resources */,
 				D3B036FF196D64460008BB1A /* verifications_icon_phone.png in Resources */,
 				302C1867195307E9004F0AB1 /* icon-settings.png in Resources */,
@@ -808,18 +848,21 @@
 				D3D96F3F19642CA7005455A7 /* btn_fb.png in Resources */,
 				302C17AA1952FF83004F0AB1 /* Images.xcassets in Resources */,
 				302C1889195307E9004F0AB1 /* toggle-left-off@2x.png in Resources */,
+				D3E93025196E913D00F0C8B3 /* mail-1.png in Resources */,
 				F9B60F3C196BF0B8002C1166 /* profile.png in Resources */,
 				304EA0FB19546616007A2233 /* home.jpeg in Resources */,
 				302C1836195307E9004F0AB1 /* btn-back-off@2x.png in Resources */,
 				302C185A195307E9004F0AB1 /* cell-white@2x.png in Resources */,
 				D3D96F4319642CC0005455A7 /* textbox_bg.png in Resources */,
 				F943102B196E74BA0087870B /* ShopViewController.xib in Resources */,
+				D3E93027196E913D00F0C8B3 /* phone.png in Resources */,
 				302C187D195307E9004F0AB1 /* sideport-bg.png in Resources */,
 				302C1860195307E9004F0AB1 /* divider-light-orange@2x.png in Resources */,
 				302C1864195307E9004F0AB1 /* icon-feedback@2x.png in Resources */,
 				304EA0FA19546616007A2233 /* chat.jpeg in Resources */,
 				30A25D4919558E7500C7D61F /* DarkBlack.jpg in Resources */,
 				302C183A195307E9004F0AB1 /* btn-clear-off@2x.png in Resources */,
+				D3E93019196E90D000F0C8B3 /* star-rating.png in Resources */,
 				304EA10A19546D24007A2233 /* logo1.png in Resources */,
 				F939856819681925003580F5 /* TeacherRegistrationViewController.xib in Resources */,
 				304EA0F619545FB0007A2233 /* HomeViewController.xib in Resources */,
@@ -827,6 +870,7 @@
 				302C1853195307E9004F0AB1 /* cell-dark-grey.png in Resources */,
 				304EA0F11954517F007A2233 /* pureWhite.png in Resources */,
 				D3B03706196D64C60008BB1A /* amenities-internet@2x.png in Resources */,
+				D3E9302A196E913D00F0C8B3 /* globe.png in Resources */,
 				302C185C195307E9004F0AB1 /* divider-grey@2x.png in Resources */,
 				302C1858195307E9004F0AB1 /* cell-orange@2x.png in Resources */,
 				D3B03700196D64460008BB1A /* verifications_icon_phone@2x.png in Resources */,
@@ -835,7 +879,7 @@
 				304EA10819546951007A2233 /* chaticon.png in Resources */,
 				302C1862195307E9004F0AB1 /* header-main@2x.png in Resources */,
 				302C1841195307E9004F0AB1 /* btn-menu-on.png in Resources */,
-				D3B036F4196D5ABF0008BB1A /* SchollDetailViewController.xib in Resources */,
+				D3B036F4196D5ABF0008BB1A /* SchoolDetailViewController.xib in Resources */,
 				302C1837195307E9004F0AB1 /* btn-back-on.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -874,7 +918,7 @@
 				302C17CE195304AC004F0AB1 /* MainViewController.m in Sources */,
 				F9B60F35196BECDB002C1166 /* ChatViewController.m in Sources */,
 				304EA0DF19543AA3007A2233 /* RegistrationViewController.m in Sources */,
-				D3B036F3196D5ABF0008BB1A /* SchollDetailViewController.m in Sources */,
+				D3B036F3196D5ABF0008BB1A /* SchoolDetailViewController.m in Sources */,
 				304EA0E4195441F0007A2233 /* SchoolRegistrationViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
