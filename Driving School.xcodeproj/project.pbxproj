@@ -172,6 +172,8 @@
 		D3E9306E196EABB700F0C8B3 /* ChatListViewcontroller.xib in Resources */ = {isa = PBXBuildFile; fileRef = D3E93067196EABB700F0C8B3 /* ChatListViewcontroller.xib */; };
 		D3E9306F196EABB700F0C8B3 /* ForgotPasswordViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D3E93069196EABB700F0C8B3 /* ForgotPasswordViewController.m */; };
 		D3E93070196EABB700F0C8B3 /* ForgotPasswordViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = D3E9306A196EABB700F0C8B3 /* ForgotPasswordViewController.xib */; };
+		D3E93074196EB43E00F0C8B3 /* TeacherDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D3E93072196EB43E00F0C8B3 /* TeacherDetailViewController.m */; };
+		D3E93075196EB43E00F0C8B3 /* TeacherDetailViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = D3E93073196EB43E00F0C8B3 /* TeacherDetailViewController.xib */; };
 		F939856719681925003580F5 /* TeacherRegistrationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F939856519681925003580F5 /* TeacherRegistrationViewController.m */; };
 		F939856819681925003580F5 /* TeacherRegistrationViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = F939856619681925003580F5 /* TeacherRegistrationViewController.xib */; };
 		F9431028196E74BA0087870B /* ProfileEditViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F9431020196E74BA0087870B /* ProfileEditViewController.m */; };
@@ -402,6 +404,9 @@
 		D3E93068196EABB700F0C8B3 /* ForgotPasswordViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ForgotPasswordViewController.h; sourceTree = "<group>"; };
 		D3E93069196EABB700F0C8B3 /* ForgotPasswordViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ForgotPasswordViewController.m; sourceTree = "<group>"; };
 		D3E9306A196EABB700F0C8B3 /* ForgotPasswordViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ForgotPasswordViewController.xib; sourceTree = "<group>"; };
+		D3E93071196EB43E00F0C8B3 /* TeacherDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TeacherDetailViewController.h; sourceTree = "<group>"; };
+		D3E93072196EB43E00F0C8B3 /* TeacherDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TeacherDetailViewController.m; sourceTree = "<group>"; };
+		D3E93073196EB43E00F0C8B3 /* TeacherDetailViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TeacherDetailViewController.xib; sourceTree = "<group>"; };
 		F939856419681925003580F5 /* TeacherRegistrationViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TeacherRegistrationViewController.h; sourceTree = "<group>"; };
 		F939856519681925003580F5 /* TeacherRegistrationViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TeacherRegistrationViewController.m; sourceTree = "<group>"; };
 		F939856619681925003580F5 /* TeacherRegistrationViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TeacherRegistrationViewController.xib; sourceTree = "<group>"; };
@@ -573,6 +578,9 @@
 				D3E9303B196EA06200F0C8B3 /* JoinSchoolViewController.h */,
 				D3E9303C196EA06200F0C8B3 /* JoinSchoolViewController.m */,
 				D3E9303D196EA06200F0C8B3 /* JoinSchoolViewController.xib */,
+				D3E93071196EB43E00F0C8B3 /* TeacherDetailViewController.h */,
+				D3E93072196EB43E00F0C8B3 /* TeacherDetailViewController.m */,
+				D3E93073196EB43E00F0C8B3 /* TeacherDetailViewController.xib */,
 			);
 			path = "Driving School";
 			sourceTree = "<group>";
@@ -951,6 +959,7 @@
 				D3E9302B196E913D00F0C8B3 /* heart.png in Resources */,
 				302C1856195307E9004F0AB1 /* cell-light-grey@2x.png in Resources */,
 				D3B036FF196D64460008BB1A /* verifications_icon_phone.png in Resources */,
+				D3E93075196EB43E00F0C8B3 /* TeacherDetailViewController.xib in Resources */,
 				302C1867195307E9004F0AB1 /* icon-settings.png in Resources */,
 				304EA0CE1953F7F8007A2233 /* StudentRegistrationViewController.xib in Resources */,
 				302C1854195307E9004F0AB1 /* cell-dark-grey@2x.png in Resources */,
@@ -1038,6 +1047,7 @@
 				304EA0DA19541ED7007A2233 /* SignInViewController.m in Sources */,
 				D3E9304F196EAB8C00F0C8B3 /* UIBubbleTableView.m in Sources */,
 				F95DE382196A885F0074C3D1 /* SearchEntity.m in Sources */,
+				D3E93074196EB43E00F0C8B3 /* TeacherDetailViewController.m in Sources */,
 				F9B60F30196BECC9002C1166 /* ProfileViewController.m in Sources */,
 				F95DE37F196A88510074C3D1 /* SchoolEntity.m in Sources */,
 				304EA0F519545FB0007A2233 /* HomeViewController.m in Sources */,
