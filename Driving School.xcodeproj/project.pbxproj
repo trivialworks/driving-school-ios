@@ -147,6 +147,12 @@
 		D3E9302A196E913D00F0C8B3 /* globe.png in Resources */ = {isa = PBXBuildFile; fileRef = D3E93021196E913D00F0C8B3 /* globe.png */; };
 		D3E9302B196E913D00F0C8B3 /* heart.png in Resources */ = {isa = PBXBuildFile; fileRef = D3E93022196E913D00F0C8B3 /* heart.png */; };
 		D3E9302D196E9D8D00F0C8B3 /* eye.png in Resources */ = {isa = PBXBuildFile; fileRef = D3E9302C196E9D8D00F0C8B3 /* eye.png */; };
+		D3E93031196E9FF600F0C8B3 /* SchoolSummaryViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D3E9302F196E9FF600F0C8B3 /* SchoolSummaryViewController.m */; };
+		D3E93032196E9FF600F0C8B3 /* SchoolSummaryViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = D3E93030196E9FF600F0C8B3 /* SchoolSummaryViewController.xib */; };
+		D3E93039196EA04700F0C8B3 /* AssociatedTrainersViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D3E93037196EA04700F0C8B3 /* AssociatedTrainersViewController.m */; };
+		D3E9303A196EA04700F0C8B3 /* AssociatedTrainersViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = D3E93038196EA04700F0C8B3 /* AssociatedTrainersViewController.xib */; };
+		D3E9303E196EA06200F0C8B3 /* JoinSchoolViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D3E9303C196EA06200F0C8B3 /* JoinSchoolViewController.m */; };
+		D3E9303F196EA06200F0C8B3 /* JoinSchoolViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = D3E9303D196EA06200F0C8B3 /* JoinSchoolViewController.xib */; };
 		F939856719681925003580F5 /* TeacherRegistrationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F939856519681925003580F5 /* TeacherRegistrationViewController.m */; };
 		F939856819681925003580F5 /* TeacherRegistrationViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = F939856619681925003580F5 /* TeacherRegistrationViewController.xib */; };
 		F9431028196E74BA0087870B /* ProfileEditViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F9431020196E74BA0087870B /* ProfileEditViewController.m */; };
@@ -340,6 +346,15 @@
 		D3E93021196E913D00F0C8B3 /* globe.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = globe.png; sourceTree = "<group>"; };
 		D3E93022196E913D00F0C8B3 /* heart.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = heart.png; sourceTree = "<group>"; };
 		D3E9302C196E9D8D00F0C8B3 /* eye.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = eye.png; sourceTree = "<group>"; };
+		D3E9302E196E9FF600F0C8B3 /* SchoolSummaryViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SchoolSummaryViewController.h; sourceTree = "<group>"; };
+		D3E9302F196E9FF600F0C8B3 /* SchoolSummaryViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SchoolSummaryViewController.m; sourceTree = "<group>"; };
+		D3E93030196E9FF600F0C8B3 /* SchoolSummaryViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SchoolSummaryViewController.xib; sourceTree = "<group>"; };
+		D3E93036196EA04700F0C8B3 /* AssociatedTrainersViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AssociatedTrainersViewController.h; sourceTree = "<group>"; };
+		D3E93037196EA04700F0C8B3 /* AssociatedTrainersViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AssociatedTrainersViewController.m; sourceTree = "<group>"; };
+		D3E93038196EA04700F0C8B3 /* AssociatedTrainersViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = AssociatedTrainersViewController.xib; sourceTree = "<group>"; };
+		D3E9303B196EA06200F0C8B3 /* JoinSchoolViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JoinSchoolViewController.h; sourceTree = "<group>"; };
+		D3E9303C196EA06200F0C8B3 /* JoinSchoolViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JoinSchoolViewController.m; sourceTree = "<group>"; };
+		D3E9303D196EA06200F0C8B3 /* JoinSchoolViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = JoinSchoolViewController.xib; sourceTree = "<group>"; };
 		F939856419681925003580F5 /* TeacherRegistrationViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TeacherRegistrationViewController.h; sourceTree = "<group>"; };
 		F939856519681925003580F5 /* TeacherRegistrationViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TeacherRegistrationViewController.m; sourceTree = "<group>"; };
 		F939856619681925003580F5 /* TeacherRegistrationViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TeacherRegistrationViewController.xib; sourceTree = "<group>"; };
@@ -492,6 +507,15 @@
 				D3B036F0196D5ABF0008BB1A /* SchoolDetailViewController.h */,
 				D3B036F1196D5ABF0008BB1A /* SchoolDetailViewController.m */,
 				D3B036F2196D5ABF0008BB1A /* SchoolDetailViewController.xib */,
+				D3E9302E196E9FF600F0C8B3 /* SchoolSummaryViewController.h */,
+				D3E9302F196E9FF600F0C8B3 /* SchoolSummaryViewController.m */,
+				D3E93030196E9FF600F0C8B3 /* SchoolSummaryViewController.xib */,
+				D3E93036196EA04700F0C8B3 /* AssociatedTrainersViewController.h */,
+				D3E93037196EA04700F0C8B3 /* AssociatedTrainersViewController.m */,
+				D3E93038196EA04700F0C8B3 /* AssociatedTrainersViewController.xib */,
+				D3E9303B196EA06200F0C8B3 /* JoinSchoolViewController.h */,
+				D3E9303C196EA06200F0C8B3 /* JoinSchoolViewController.m */,
+				D3E9303D196EA06200F0C8B3 /* JoinSchoolViewController.xib */,
 			);
 			path = "Driving School";
 			sourceTree = "<group>";
@@ -842,11 +866,13 @@
 				302C1867195307E9004F0AB1 /* icon-settings.png in Resources */,
 				304EA0CE1953F7F8007A2233 /* StudentRegistrationViewController.xib in Resources */,
 				302C1854195307E9004F0AB1 /* cell-dark-grey@2x.png in Resources */,
+				D3E9303F196EA06200F0C8B3 /* JoinSchoolViewController.xib in Resources */,
 				302C185E195307E9004F0AB1 /* divider-light-grey@2x.png in Resources */,
 				302C188A195307E9004F0AB1 /* toggle-left-on.png in Resources */,
 				302C1885195307E9004F0AB1 /* thumb-profile1@2x.png in Resources */,
 				D3D96F3F19642CA7005455A7 /* btn_fb.png in Resources */,
 				302C17AA1952FF83004F0AB1 /* Images.xcassets in Resources */,
+				D3E9303A196EA04700F0C8B3 /* AssociatedTrainersViewController.xib in Resources */,
 				302C1889195307E9004F0AB1 /* toggle-left-off@2x.png in Resources */,
 				D3E93025196E913D00F0C8B3 /* mail-1.png in Resources */,
 				F9B60F3C196BF0B8002C1166 /* profile.png in Resources */,
@@ -876,6 +902,7 @@
 				D3B03700196D64460008BB1A /* verifications_icon_phone@2x.png in Resources */,
 				302C188D195307E9004F0AB1 /* toggle-right-off@2x.png in Resources */,
 				F9B60F3D196BF0B8002C1166 /* search.png in Resources */,
+				D3E93032196E9FF600F0C8B3 /* SchoolSummaryViewController.xib in Resources */,
 				304EA10819546951007A2233 /* chaticon.png in Resources */,
 				302C1862195307E9004F0AB1 /* header-main@2x.png in Resources */,
 				302C1841195307E9004F0AB1 /* btn-menu-on.png in Resources */,
@@ -900,6 +927,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				302C17A81952FF83004F0AB1 /* Driving_School.xcdatamodeld in Sources */,
+				D3E93031196E9FF600F0C8B3 /* SchoolSummaryViewController.m in Sources */,
 				304EA0CD1953F7F8007A2233 /* StudentRegistrationViewController.m in Sources */,
 				30A25D4119557B2400C7D61F /* SearchViewController.m in Sources */,
 				F9431028196E74BA0087870B /* ProfileEditViewController.m in Sources */,
@@ -907,6 +935,7 @@
 				302C17A11952FF83004F0AB1 /* main.m in Sources */,
 				302C17A51952FF83004F0AB1 /* MyclassAppDelegate.m in Sources */,
 				F95DE379196A88240074C3D1 /* StudentEntity.m in Sources */,
+				D3E93039196EA04700F0C8B3 /* AssociatedTrainersViewController.m in Sources */,
 				F943102A196E74BA0087870B /* ShopViewController.m in Sources */,
 				304EA0DA19541ED7007A2233 /* SignInViewController.m in Sources */,
 				F95DE382196A885F0074C3D1 /* SearchEntity.m in Sources */,
@@ -917,6 +946,7 @@
 				F95DE37C196A883E0074C3D1 /* TeacherEntity.m in Sources */,
 				302C17CE195304AC004F0AB1 /* MainViewController.m in Sources */,
 				F9B60F35196BECDB002C1166 /* ChatViewController.m in Sources */,
+				D3E9303E196EA06200F0C8B3 /* JoinSchoolViewController.m in Sources */,
 				304EA0DF19543AA3007A2233 /* RegistrationViewController.m in Sources */,
 				D3B036F3196D5ABF0008BB1A /* SchoolDetailViewController.m in Sources */,
 				304EA0E4195441F0007A2233 /* SchoolRegistrationViewController.m in Sources */,
