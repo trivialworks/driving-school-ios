@@ -11,5 +11,6 @@
 
 @interface SearchViewController : UIViewController<UITextFieldDelegate>
 - (IBAction)btnback:(id)sender;
+@property (strong, nonatomic) IBOutlet UIScrollView *Scroll;
 
 @end

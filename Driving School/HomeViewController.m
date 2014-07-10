@@ -7,15 +7,15 @@
 //
 
 #import "HomeViewController.h"
-#import "SchollDetailViewController.h"
 
 @interface HomeViewController ()
 
 @end
 
 @implementation HomeViewController{
-      NSArray *tableData;
-     NSArray *tableData1;
+    NSArray *tableData;
+    NSArray *thumbnails;
+    NSArray *tableDataDetail;
 }
 
 - (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil
@@ -59,8 +59,19 @@
 //    [self.view addSubview:self.tab.view];
     
     [super viewDidLoad];
-    tableData = [NSArray arrayWithObjects:@"Egg Benedict", @"Mushroom Risotto", @"Full Breakfast", @"Hamburger", @"Ham and Egg Sandwich", @"Creme Brelee", @"White Chocolate Donut", @"Starbucks Coffee", @"Vegetable Curry", @"Instant Noodle with Egg", @"Noodle with BBQ Pork", @"Japanese Noodle with Pork", @"Green Tea", @"Thai Shrimp Cake", @"Angry Birds Cake", @"Ham and Cheese Panini", nil];
-        tableData1 = [NSArray arrayWithObjects:@"Egg Benedict", @"Mushroom Risotto", @"Full Breakfast", @"Hamburger", @"Ham and Egg Sandwich", @"Creme Brelee", @"White Chocolate Donut", @"Starbucks Coffee", @"Vegetable Curry", @"Instant Noodle with Egg", @"Noodle with BBQ Pork", @"Japanese Noodle with Pork", @"Green Tea", @"Thai Shrimp Cake", @"Angry Birds Cake", @"Ham and Cheese Panini", nil];
+    tableData = [NSArray arrayWithObjects:@"Progressive Driving School", @"Celstial Driving School", @"A Traffic Driving School", @"Progressive Driving School", @"Celstial Driving School", @"A Traffic Driving School", nil];
+    
+    // Initialize thumbnails
+    thumbnails = [NSArray arrayWithObjects:@"fav_star.png", @"star_without_fill.png", @"fav_star.png", @"star_without_fill.png", @"fav_star.png", @"star_without_fill.png", nil];
+        tableDataDetail = [NSArray arrayWithObjects:@"Bronx, NY 10453", @"Bronx, NY 10450", @"Bronx, NY 10458", @"Bronx, NY 10485", @"Bronx, NY 10460", @"Bronx, NY 10490",nil];
+    // Find out the path of recipes.plist
+//    NSString *path = [[NSBundle mainBundle] pathForResource:@"recipes" ofType:@"plist"];
+//    
+//    // Load the file content and read the data into arrays
+//    NSDictionary *dict = [[NSDictionary alloc] initWithContentsOfFile:path];
+//    tableData = [dict objectForKey:@"RecipeName"];
+//    thumbnails = [dict objectForKey:@"Thumbnail"];
+//    prepTime = [dict objectForKey:@"PrepTime"];
 
 }
 
@@ -73,27 +84,38 @@
 {
     return [tableData count];
 }
+- (BOOL)shouldAutorotateToInterfaceOrientation:(UIInterfaceOrientation)interfaceOrientation
+{
+    return (interfaceOrientation != UIInterfaceOrientationPortraitUpsideDown);
+}
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath
 {
-    static NSString *simpleTableIdentifier = @"SimpleTableItem";
+    static NSString *simpleTableIdentifier = @"SimpleTableCell";
     
-    UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:simpleTableIdentifier];
-    
-    if (cell == nil) {
-        cell = [[UITableViewCell alloc] initWithStyle:UITableViewCellStyleDefault reuseIdentifier:simpleTableIdentifier];
+    SimpleTableCell *cell = (SimpleTableCell *)[tableView dequeueReusableCellWithIdentifier:simpleTableIdentifier];
+    if (cell == nil)
+    {
+        NSArray *nib = [[NSBundle mainBundle] loadNibNamed:@"SimpleTableCell" owner:self options:nil];
+        cell = [nib objectAtIndex:0];
     }
     
-    cell.textLabel.text = [tableData objectAtIndex:indexPath.row];
-       cell.detailTextLabel.text = [tableData1 objectAtIndex:indexPath.row];
+    cell.nameLabel.text = [tableData objectAtIndex:indexPath.row];
+   // cell.thumbnailImageView.layer.masksToBounds = YES;
+    cell.thumbnailImageView.image = [UIImage imageNamed:[thumbnails objectAtIndex:indexPath.row]];
+    
+    cell.detailLabel.text = [tableDataDetail objectAtIndex:indexPath.row];
+    
     return cell;
+}
+- (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath
+{
+    NSLog(@"didSelectRowAtIndexPath");
+    SchollDetailViewController *searchViewController = [[SchollDetailViewController alloc] init];
+    [self presentViewController:searchViewController animated:YES completion:nil];
+
 }
 - (IBAction)btnSearch:(id)sender {
     SearchViewController *searchViewController = [[SearchViewController alloc] init];
     [self presentViewController:searchViewController animated:YES completion:nil];
-}
-
-- (IBAction)showSchoolDetail:(id)sender {
-    SchollDetailViewController *schoolDetail=[[SchollDetailViewController alloc]init];
-    [self presentViewController:schoolDetail animated:YES completion:nil];
 }
 @end

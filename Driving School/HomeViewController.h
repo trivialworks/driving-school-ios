@@ -10,10 +10,11 @@
 #import "SearchViewController.h"
 #import "ChatViewController.h"
 #import "ProfileViewController.h"
+#import "SimpleTableCell.h"
+#import "SchollDetailViewController.h"
 
 @interface HomeViewController : UIViewController <UITableViewDelegate, UITableViewDataSource>   
 @property (nonatomic, retain) UITabBarController *tab;
 - (IBAction)btnSearch:(id)sender;
-- (IBAction)showSchoolDetail:(id)sender;
 
 @end

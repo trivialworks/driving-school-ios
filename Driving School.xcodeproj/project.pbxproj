@@ -138,6 +138,12 @@
 		D3D96F451964300E005455A7 /* logo@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D3D96F441964300E005455A7 /* logo@2x.png */; };
 		F939856719681925003580F5 /* TeacherRegistrationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F939856519681925003580F5 /* TeacherRegistrationViewController.m */; };
 		F939856819681925003580F5 /* TeacherRegistrationViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = F939856619681925003580F5 /* TeacherRegistrationViewController.xib */; };
+		F9431028196E74BA0087870B /* ProfileEditViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F9431020196E74BA0087870B /* ProfileEditViewController.m */; };
+		F9431029196E74BA0087870B /* ProfileEditViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = F9431021196E74BA0087870B /* ProfileEditViewController.xib */; };
+		F943102A196E74BA0087870B /* ShopViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F9431023196E74BA0087870B /* ShopViewController.m */; };
+		F943102B196E74BA0087870B /* ShopViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = F9431024196E74BA0087870B /* ShopViewController.xib */; };
+		F943102C196E74BA0087870B /* SimpleTableCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = F9431025196E74BA0087870B /* SimpleTableCell.xib */; };
+		F943102D196E74BA0087870B /* SimpleTableCell.m in Sources */ = {isa = PBXBuildFile; fileRef = F9431027196E74BA0087870B /* SimpleTableCell.m */; };
 		F95DE379196A88240074C3D1 /* StudentEntity.m in Sources */ = {isa = PBXBuildFile; fileRef = F95DE378196A88240074C3D1 /* StudentEntity.m */; };
 		F95DE37C196A883E0074C3D1 /* TeacherEntity.m in Sources */ = {isa = PBXBuildFile; fileRef = F95DE37B196A883E0074C3D1 /* TeacherEntity.m */; };
 		F95DE37F196A88510074C3D1 /* SchoolEntity.m in Sources */ = {isa = PBXBuildFile; fileRef = F95DE37E196A88510074C3D1 /* SchoolEntity.m */; };
@@ -315,6 +321,15 @@
 		F939856419681925003580F5 /* TeacherRegistrationViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TeacherRegistrationViewController.h; sourceTree = "<group>"; };
 		F939856519681925003580F5 /* TeacherRegistrationViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TeacherRegistrationViewController.m; sourceTree = "<group>"; };
 		F939856619681925003580F5 /* TeacherRegistrationViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TeacherRegistrationViewController.xib; sourceTree = "<group>"; };
+		F943101F196E74BA0087870B /* ProfileEditViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ProfileEditViewController.h; sourceTree = "<group>"; };
+		F9431020196E74BA0087870B /* ProfileEditViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ProfileEditViewController.m; sourceTree = "<group>"; };
+		F9431021196E74BA0087870B /* ProfileEditViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ProfileEditViewController.xib; sourceTree = "<group>"; };
+		F9431022196E74BA0087870B /* ShopViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ShopViewController.h; sourceTree = "<group>"; };
+		F9431023196E74BA0087870B /* ShopViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ShopViewController.m; sourceTree = "<group>"; };
+		F9431024196E74BA0087870B /* ShopViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ShopViewController.xib; sourceTree = "<group>"; };
+		F9431025196E74BA0087870B /* SimpleTableCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SimpleTableCell.xib; sourceTree = "<group>"; };
+		F9431026196E74BA0087870B /* SimpleTableCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SimpleTableCell.h; sourceTree = "<group>"; };
+		F9431027196E74BA0087870B /* SimpleTableCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SimpleTableCell.m; sourceTree = "<group>"; };
 		F95DE377196A88240074C3D1 /* StudentEntity.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StudentEntity.h; sourceTree = "<group>"; };
 		F95DE378196A88240074C3D1 /* StudentEntity.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StudentEntity.m; sourceTree = "<group>"; };
 		F95DE37A196A883E0074C3D1 /* TeacherEntity.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TeacherEntity.h; sourceTree = "<group>"; };
@@ -430,6 +445,15 @@
 				304EA0F219545FB0007A2233 /* HomeViewController.h */,
 				304EA0F319545FB0007A2233 /* HomeViewController.m */,
 				304EA0F419545FB0007A2233 /* HomeViewController.xib */,
+				F943101F196E74BA0087870B /* ProfileEditViewController.h */,
+				F9431020196E74BA0087870B /* ProfileEditViewController.m */,
+				F9431021196E74BA0087870B /* ProfileEditViewController.xib */,
+				F9431022196E74BA0087870B /* ShopViewController.h */,
+				F9431023196E74BA0087870B /* ShopViewController.m */,
+				F9431024196E74BA0087870B /* ShopViewController.xib */,
+				F9431025196E74BA0087870B /* SimpleTableCell.xib */,
+				F9431026196E74BA0087870B /* SimpleTableCell.h */,
+				F9431027196E74BA0087870B /* SimpleTableCell.m */,
 				30A25D3E19557B2400C7D61F /* SearchViewController.h */,
 				30A25D3F19557B2400C7D61F /* SearchViewController.m */,
 				30A25D4019557B2400C7D61F /* SearchViewController.xib */,
@@ -690,6 +714,7 @@
 				F9E0FD71196D0764003AA1FE /* cart.png in Resources */,
 				F9E0FD73196D1CD7003AA1FE /* up_bar.png in Resources */,
 				D3B036F6196D5E580008BB1A /* drivingschool.jpg in Resources */,
+				F9431029196E74BA0087870B /* ProfileEditViewController.xib in Resources */,
 				302C1855195307E9004F0AB1 /* cell-light-grey.png in Resources */,
 				304EA1061954687A007A2233 /* settingicon.png in Resources */,
 				302C183C195307E9004F0AB1 /* btn-less-off@2x.png in Resources */,
@@ -770,6 +795,7 @@
 				302C1870195307E9004F0AB1 /* icon-update2x.png in Resources */,
 				D3D96F3D19642CA2005455A7 /* white bg.png in Resources */,
 				F9B60F31196BECC9002C1166 /* ProfileViewController.xib in Resources */,
+				F943102C196E74BA0087870B /* SimpleTableCell.xib in Resources */,
 				302C185B195307E9004F0AB1 /* divider-grey.png in Resources */,
 				302C1856195307E9004F0AB1 /* cell-light-grey@2x.png in Resources */,
 				D3B036FF196D64460008BB1A /* verifications_icon_phone.png in Resources */,
@@ -787,6 +813,7 @@
 				302C1836195307E9004F0AB1 /* btn-back-off@2x.png in Resources */,
 				302C185A195307E9004F0AB1 /* cell-white@2x.png in Resources */,
 				D3D96F4319642CC0005455A7 /* textbox_bg.png in Resources */,
+				F943102B196E74BA0087870B /* ShopViewController.xib in Resources */,
 				302C187D195307E9004F0AB1 /* sideport-bg.png in Resources */,
 				302C1860195307E9004F0AB1 /* divider-light-orange@2x.png in Resources */,
 				302C1864195307E9004F0AB1 /* icon-feedback@2x.png in Resources */,
@@ -831,15 +858,18 @@
 				302C17A81952FF83004F0AB1 /* Driving_School.xcdatamodeld in Sources */,
 				304EA0CD1953F7F8007A2233 /* StudentRegistrationViewController.m in Sources */,
 				30A25D4119557B2400C7D61F /* SearchViewController.m in Sources */,
+				F9431028196E74BA0087870B /* ProfileEditViewController.m in Sources */,
 				F939856719681925003580F5 /* TeacherRegistrationViewController.m in Sources */,
 				302C17A11952FF83004F0AB1 /* main.m in Sources */,
 				302C17A51952FF83004F0AB1 /* MyclassAppDelegate.m in Sources */,
 				F95DE379196A88240074C3D1 /* StudentEntity.m in Sources */,
+				F943102A196E74BA0087870B /* ShopViewController.m in Sources */,
 				304EA0DA19541ED7007A2233 /* SignInViewController.m in Sources */,
 				F95DE382196A885F0074C3D1 /* SearchEntity.m in Sources */,
 				F9B60F30196BECC9002C1166 /* ProfileViewController.m in Sources */,
 				F95DE37F196A88510074C3D1 /* SchoolEntity.m in Sources */,
 				304EA0F519545FB0007A2233 /* HomeViewController.m in Sources */,
+				F943102D196E74BA0087870B /* SimpleTableCell.m in Sources */,
 				F95DE37C196A883E0074C3D1 /* TeacherEntity.m in Sources */,
 				302C17CE195304AC004F0AB1 /* MainViewController.m in Sources */,
 				F9B60F35196BECDB002C1166 /* ChatViewController.m in Sources */,

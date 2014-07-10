@@ -7,7 +7,9 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "ProfileEditViewController.h"
 
 @interface ProfileViewController : UIViewController
+- (IBAction)btnEditProfile:(id)sender;
 
 @end

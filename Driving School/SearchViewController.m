@@ -26,7 +26,7 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
-    
+    _Scroll.contentSize=CGSizeMake(320, 1100);
            
     // Do any additional setup after loading the view from its nib.
 }

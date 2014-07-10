@@ -86,7 +86,7 @@
     fourthView.title=@"Profile";
     fourthView.tabBarItem.image=[UIImage imageNamed:@"profile.png"];
     
-    ProfileViewController *fifthView=[[ProfileViewController alloc]initWithNibName:nil bundle:nil];
+    ShopViewController *fifthView=[[ShopViewController alloc]initWithNibName:nil bundle:nil];
     fifthView.title=@"Shop";
     fifthView.tabBarItem.image=[UIImage imageNamed:@"cart.png"];
     

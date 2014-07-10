@@ -1,18 +1,18 @@
 //
-//  ProfileViewController.m
+//  ProfileEditViewController.m
 //  Driving School
 //
-//  Created by Anuj Singh on 08/07/14.
+//  Created by Anuj Singh on 10/07/14.
 //  Copyright (c) 2014 Anuj Singh. All rights reserved.
 //
 
-#import "ProfileViewController.h"
+#import "ProfileEditViewController.h"
 
-@interface ProfileViewController ()
+@interface ProfileEditViewController ()
 
 @end
 
-@implementation ProfileViewController
+@implementation ProfileEditViewController
 
 - (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil
 {
@@ -35,8 +35,7 @@
     // Dispose of any resources that can be recreated.
 }
 
-- (IBAction)btnEditProfile:(id)sender {
-    ProfileEditViewController *profileEditViewController = [[ProfileEditViewController alloc] init];
-    [self presentViewController:profileEditViewController animated:YES completion:nil];
+- (IBAction)backButton:(id)sender {
+        [self dismissViewControllerAnimated:YES completion:nil];
 }
 @end

@@ -13,6 +13,7 @@
 #import "HomeViewController.h"
 #import "ChatViewController.h"
 #import "ProfileViewController.h"
+#import "ShopViewController.h"
 
 @interface MainViewController : UIViewController
 @property (nonatomic, retain) UITabBarController *tab;
